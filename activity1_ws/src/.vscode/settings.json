@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robomaven/activity1_ws/build/activity1_py_pkg",
+        "/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages",
+        "/home/robomaven/ros2_ws/build/my_py_pkg",
+        "/home/robomaven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robomaven/activity1_ws/build/activity1_py_pkg",
+        "/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages",
+        "/home/robomaven/ros2_ws/build/my_py_pkg",
+        "/home/robomaven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "functional": "cpp"
+    }
+}

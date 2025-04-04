@@ -1,0 +1,5 @@
+[console_scripts]
+turtle_controller = snake_game.turtle_controller:main
+turtle_follower = snake_game.turtle_follower:main
+turtle_spawner = snake_game.turtle_spawner:main
+

@@ -1,0 +1,5 @@
+/home/robomaven/ws/ws1/build/my_interfaces/rosidl_adapter/my_interfaces:msg/ProjectInfo.idl
+/home/robomaven/ws/ws1/build/my_interfaces/rosidl_adapter/my_interfaces:msg/KillerData.idl
+/home/robomaven/ws/ws1/build/my_interfaces/rosidl_adapter/my_interfaces:msg/Login.idl
+/home/robomaven/ws/ws1/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Kill.idl
+/home/robomaven/ws/ws1/build/my_interfaces/rosidl_adapter/my_interfaces:action/CountUntil.idl

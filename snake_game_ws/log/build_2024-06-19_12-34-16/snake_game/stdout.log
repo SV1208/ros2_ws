@@ -1,0 +1,31 @@
+running develop
+Removing /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake-game.egg-link (link to .)
+running egg_info
+writing ../../build/snake_game/snake_game.egg-info/PKG-INFO
+writing dependency_links to ../../build/snake_game/snake_game.egg-info/dependency_links.txt
+writing entry points to ../../build/snake_game/snake_game.egg-info/entry_points.txt
+writing requirements to ../../build/snake_game/snake_game.egg-info/requires.txt
+writing top-level names to ../../build/snake_game/snake_game.egg-info/top_level.txt
+reading manifest file '../../build/snake_game/snake_game.egg-info/SOURCES.txt'
+writing manifest file '../../build/snake_game/snake_game.egg-info/SOURCES.txt'
+running build
+running build_py
+copying snake_game/turtle_controller.py -> /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game
+copying snake_game/turtle_spawner.py -> /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game
+running install
+running install_lib
+creating /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+copying /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game/turtle_controller.py -> /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+copying /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game/turtle_spawner.py -> /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+copying /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game/__init__.py -> /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+byte-compiling /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game/turtle_controller.py to turtle_controller.cpython-310.pyc
+byte-compiling /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+byte-compiling /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/snake_game -> /home/robomaven/ws/snake_game_ws/install/snake_game/share/ament_index/resource_index/packages
+copying package.xml -> /home/robomaven/ws/snake_game_ws/install/snake_game/share/snake_game
+running install_egg_info
+Copying ../../build/snake_game/snake_game.egg-info to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_spawner script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+writing list of installed files to '/home/robomaven/ws/snake_game_ws/build/snake_game/install.log'

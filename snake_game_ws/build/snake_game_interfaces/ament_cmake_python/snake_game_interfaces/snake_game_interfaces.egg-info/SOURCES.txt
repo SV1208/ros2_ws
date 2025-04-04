@@ -1,0 +1,11 @@
+setup.py
+snake_game_interfaces/__init__.py
+snake_game_interfaces.egg-info/PKG-INFO
+snake_game_interfaces.egg-info/SOURCES.txt
+snake_game_interfaces.egg-info/dependency_links.txt
+snake_game_interfaces.egg-info/top_level.txt
+snake_game_interfaces/msg/__init__.py
+snake_game_interfaces/msg/_turtle.py
+snake_game_interfaces/msg/_turtle_array.py
+snake_game_interfaces/srv/__init__.py
+snake_game_interfaces/srv/_catch_turtle.py

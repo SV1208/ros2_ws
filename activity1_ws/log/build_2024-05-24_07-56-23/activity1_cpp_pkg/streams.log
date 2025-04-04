@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_cpp_pkg': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robomaven/activity1_ws/build/activity1_cpp_pkg -- -j20 -l20
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target led_panel[0m
+[0.052s] [ 12%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery_node.cpp.o[0m
+[0.054s] [ 62%] Built target number_counter
+[0.055s] [ 62%] Built target number_publisher
+[0.056s] [ 87%] Built target led_panel
+[0.176s] [01m[K/home/robomaven/activity1_ws/src/activity1_cpp_pkg/src/battery_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kactivity1_interfaces/srv/SetLED.hpp: No such file or directory
+[0.176s]     2 | #include [01;31m[K"activity1_interfaces/srv/SetLED.hpp"[m[K
+[0.176s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.176s] compilation terminated.
+[0.186s] gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery_node.cpp.o] Error 1
+[0.186s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/battery.dir/all] Error 2
+[0.186s] gmake: *** [Makefile:146: all] Error 2
+[0.189s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robomaven/activity1_ws/build/activity1_cpp_pkg -- -j20 -l20

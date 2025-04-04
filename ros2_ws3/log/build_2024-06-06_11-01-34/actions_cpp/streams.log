@@ -1,0 +1,54 @@
+[0.009s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp': AMENT_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/actions_cpp -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.136s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.137s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.141s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.196s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.377s] -- Found my_robot_interfaces: 0.0.0 (/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.465s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.525s] -- Configuring done
+[0.537s] -- Generating done
+[0.538s] -- Build files have been written to: /home/robomaven/ws/ros2_ws3/build/actions_cpp
+[0.562s] [35m[1mConsolidate compiler generated dependencies of target count_until_server[0m
+[0.563s] [35m[1mConsolidate compiler generated dependencies of target count_until_client[0m
+[0.569s] [ 16%] [32mBuilding CXX object CMakeFiles/count_until_server_queue_goal.dir/src/count_until_server_queue_goal.cpp.o[0m
+[0.574s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o[0m
+[0.574s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[2.078s] [01m[K/home/robomaven/ws/ros2_ws3/src/actions_cpp/src/count_until_server_queue_goal.cpp:[m[K In member function ‘[01m[Kvoid CountUntilServerNode::run_goal_queue_thread()[m[K’:
+[2.078s] [01m[K/home/robomaven/ws/ros2_ws3/src/actions_cpp/src/count_until_server_queue_goal.cpp:83:23:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.078s]    83 |         while([01;35m[Krclcpp::ok[m[K)
+[2.078s]       |               [01;35m[K~~~~~~~~^~[m[K
+[2.894s] [ 66%] [32m[1mLinking CXX executable count_until_server[0m
+[2.958s] [ 83%] [32m[1mLinking CXX executable count_until_server_queue_goal[0m
+[2.997s] [ 83%] Built target count_until_server
+[3.048s] [100%] [32m[1mLinking CXX executable count_until_client[0m
+[3.061s] [100%] Built target count_until_server_queue_goal
+[3.150s] [100%] Built target count_until_client
+[3.158s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/actions_cpp -- -j20 -l20
+[3.200s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp': AMENT_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/actions_cpp
+[3.207s] -- Install configuration: ""
+[3.207s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_client
+[3.208s] -- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_client" to ""
+[3.208s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_server
+[3.209s] -- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_server" to ""
+[3.209s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+[3.210s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+[3.210s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+[3.210s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+[3.210s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/path.sh
+[3.210s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/path.dsv
+[3.210s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.bash
+[3.210s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.sh
+[3.210s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.zsh
+[3.210s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.dsv
+[3.210s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/package.dsv
+[3.211s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+[3.212s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+[3.212s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+[3.213s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/package.xml
+[3.213s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/actions_cpp

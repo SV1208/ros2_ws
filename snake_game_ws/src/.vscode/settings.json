@@ -1,0 +1,14 @@
+{
+    "editor.mouseWheelZoom": true,
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robomaven/ws/snake_game_ws/build/activity1_py_pkg",
+        "/home/robomaven/ws/snake_game_ws/install/activity1_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.configureOnOpen": false
+}

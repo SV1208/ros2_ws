@@ -1,0 +1,2 @@
+string username
+int64 password

@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000104] (-) JobUnselected: {'identifier': 'activity1_py_pkg'}
+[0.000125] (activity1_cpp_pkg) JobQueued: {'identifier': 'activity1_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000153] (activity1_cpp_pkg) JobStarted: {'identifier': 'activity1_cpp_pkg'}
+[0.004662] (activity1_cpp_pkg) JobProgress: {'identifier': 'activity1_cpp_pkg', 'progress': 'cmake'}
+[0.004954] (activity1_cpp_pkg) JobProgress: {'identifier': 'activity1_cpp_pkg', 'progress': 'build'}
+[0.005422] (activity1_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robomaven/activity1_ws/build/activity1_cpp_pkg', '--', '-j20', '-l20'], 'cwd': '/home/robomaven/activity1_ws/build/activity1_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'robomaven'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robomaven'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robomaven/activity1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1691'), ('SYSTEMD_EXEC_PID', '2401'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11276'), ('COLCON_PREFIX_PATH', '/home/robomaven/activity1_ws/install:/home/robomaven/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomaven'), ('JOURNAL_STREAM', '8:25420'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robomaven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robomaven/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2131,unix/victus:/tmp/.ICE-unix/2131'), ('INVOCATION_ID', '518bb176121a4f0f88f45691586713e2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robomaven/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2014d1c7-1a8c-45a6-b4c2-7d7e81d2f360'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robomaven/activity1_ws/build/activity1_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robomaven/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robomaven/ros2_ws/build/my_py_pkg:/home/robomaven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/robomaven/activity1_ws/build/activity1_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.039362] (activity1_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_counter\x1b[0m\n'}
+[0.049025] (activity1_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target number_publisher\n'}
+[0.054641] (activity1_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter_cpp_node_file.cpp.o\x1b[0m\n'}
+[0.099528] (-) TimerEvent: {}
+[0.199830] (-) TimerEvent: {}
+[0.300208] (-) TimerEvent: {}
+[0.400554] (-) TimerEvent: {}
+[0.500904] (-) TimerEvent: {}
+[0.601232] (-) TimerEvent: {}
+[0.701616] (-) TimerEvent: {}
+[0.801946] (-) TimerEvent: {}
+[0.902271] (-) TimerEvent: {}
+[1.002607] (-) TimerEvent: {}
+[1.102933] (-) TimerEvent: {}
+[1.203278] (-) TimerEvent: {}
+[1.303630] (-) TimerEvent: {}
+[1.403972] (-) TimerEvent: {}
+[1.434612] (activity1_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robomaven/activity1_ws/src/activity1_cpp_pkg/src/number_counter_cpp_node_file.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NumberCounterNode::callbackResetNumberCount(std_srvs::srv::SetBool_Request_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.434899] (activity1_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robomaven/activity1_ws/src/activity1_cpp_pkg/src/number_counter_cpp_node_file.cpp:39:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.434952] (activity1_cpp_pkg) StderrLine: {'line': b'   39 |     void callbackResetNumberCount(\x1b[01;35m\x1b[Kconst std_srvs::srv::SetBool::Request::SharedPtr request\x1b[m\x1b[K)\n'}
+[1.434991] (activity1_cpp_pkg) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[1.504166] (-) TimerEvent: {}
+[1.604500] (-) TimerEvent: {}
+[1.704845] (-) TimerEvent: {}
+[1.805211] (-) TimerEvent: {}
+[1.905570] (-) TimerEvent: {}
+[2.005921] (-) TimerEvent: {}
+[2.106261] (-) TimerEvent: {}
+[2.206605] (-) TimerEvent: {}
+[2.306936] (-) TimerEvent: {}
+[2.407287] (-) TimerEvent: {}
+[2.507638] (-) TimerEvent: {}
+[2.607965] (-) TimerEvent: {}
+[2.708312] (-) TimerEvent: {}
+[2.808673] (-) TimerEvent: {}
+[2.909013] (-) TimerEvent: {}
+[3.009420] (-) TimerEvent: {}
+[3.109774] (-) TimerEvent: {}
+[3.210122] (-) TimerEvent: {}
+[3.310426] (-) TimerEvent: {}
+[3.410729] (-) TimerEvent: {}
+[3.511040] (-) TimerEvent: {}
+[3.611341] (-) TimerEvent: {}
+[3.711637] (-) TimerEvent: {}
+[3.811935] (-) TimerEvent: {}
+[3.912246] (-) TimerEvent: {}
+[4.012565] (-) TimerEvent: {}
+[4.112876] (-) TimerEvent: {}
+[4.213198] (-) TimerEvent: {}
+[4.313528] (-) TimerEvent: {}
+[4.413742] (-) TimerEvent: {}
+[4.514048] (-) TimerEvent: {}
+[4.614362] (-) TimerEvent: {}
+[4.714668] (-) TimerEvent: {}
+[4.814991] (-) TimerEvent: {}
+[4.915360] (-) TimerEvent: {}
+[5.015709] (-) TimerEvent: {}
+[5.116045] (-) TimerEvent: {}
+[5.216413] (-) TimerEvent: {}
+[5.316798] (-) TimerEvent: {}
+[5.350903] (activity1_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[5.417011] (-) TimerEvent: {}
+[5.517375] (-) TimerEvent: {}
+[5.617629] (-) TimerEvent: {}
+[5.620070] (activity1_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[5.631337] (activity1_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.661905] (activity1_cpp_pkg) JobProgress: {'identifier': 'activity1_cpp_pkg', 'progress': 'install'}
+[5.671907] (activity1_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robomaven/activity1_ws/build/activity1_cpp_pkg'], 'cwd': '/home/robomaven/activity1_ws/build/activity1_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'robomaven'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robomaven'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robomaven/activity1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1691'), ('SYSTEMD_EXEC_PID', '2401'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11276'), ('COLCON_PREFIX_PATH', '/home/robomaven/activity1_ws/install:/home/robomaven/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomaven'), ('JOURNAL_STREAM', '8:25420'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robomaven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robomaven/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2131,unix/victus:/tmp/.ICE-unix/2131'), ('INVOCATION_ID', '518bb176121a4f0f88f45691586713e2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robomaven/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2014d1c7-1a8c-45a6-b4c2-7d7e81d2f360'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robomaven/activity1_ws/build/activity1_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robomaven/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robomaven/ros2_ws/build/my_py_pkg:/home/robomaven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/robomaven/activity1_ws/build/activity1_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble')]), 'shell': False}
+[5.678459] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.678991] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_publisher\n'}
+[5.679281] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_counter\n'}
+[5.682444] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_counter" to ""\n'}
+[5.682600] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/activity1_cpp_pkg\n'}
+[5.682808] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/activity1_cpp_pkg\n'}
+[5.682962] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.683039] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.683109] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/path.sh\n'}
+[5.683172] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/path.dsv\n'}
+[5.683447] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.bash\n'}
+[5.683529] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.sh\n'}
+[5.683591] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.zsh\n'}
+[5.683651] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.dsv\n'}
+[5.683706] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/package.dsv\n'}
+[5.683760] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/packages/activity1_cpp_pkg\n'}
+[5.683825] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/cmake/activity1_cpp_pkgConfig.cmake\n'}
+[5.683880] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/cmake/activity1_cpp_pkgConfig-version.cmake\n'}
+[5.683934] (activity1_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/package.xml\n'}
+[5.684967] (activity1_cpp_pkg) CommandEnded: {'returncode': 0}
+[5.717743] (-) TimerEvent: {}
+[5.726415] (activity1_cpp_pkg) JobEnded: {'identifier': 'activity1_cpp_pkg', 'rc': 0}
+[5.726972] (-) EventReactorShutdown: {}

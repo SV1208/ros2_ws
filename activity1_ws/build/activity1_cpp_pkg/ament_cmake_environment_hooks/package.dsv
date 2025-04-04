@@ -1,0 +1,4 @@
+source;share/activity1_cpp_pkg/local_setup.bash
+source;share/activity1_cpp_pkg/local_setup.dsv
+source;share/activity1_cpp_pkg/local_setup.sh
+source;share/activity1_cpp_pkg/local_setup.zsh

@@ -1,0 +1,297 @@
+[0.168s] Invoking command in '/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/snake_game_ws/install/snake_game:/opt/ros/humble /usr/bin/cmake /home/robomaven/ws/snake_game_ws/src/snake_game_interfaces -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.238s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.293s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.353s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.355s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.530s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.078s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.080s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.098s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.098s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.098s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.098s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.112s] -- Found PythonExtra: .so  
+[1.138s] -- Configuring done
+[1.154s] -- Generating done
+[1.156s] -- Build files have been written to: /home/robomaven/ws/snake_game_ws/build/snake_game_interfaces
+[1.160s] Invoked command in '/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/snake_game_ws/install/snake_game:/opt/ros/humble /usr/bin/cmake /home/robomaven/ws/snake_game_ws/src/snake_game_interfaces -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces
+[1.161s] Invoking command in '/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/snake_game_ws/install/snake_game:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/snake_game_ws/build/snake_game_interfaces -- -j20 -l20
+[1.195s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.204s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.209s] [  4%] Built target ament_cmake_python_copy_snake_game_interfaces
+[1.364s] running egg_info
+[1.364s] creating snake_game_interfaces.egg-info
+[1.364s] writing snake_game_interfaces.egg-info/PKG-INFO
+[1.364s] writing dependency_links to snake_game_interfaces.egg-info/dependency_links.txt
+[1.364s] writing top-level names to snake_game_interfaces.egg-info/top_level.txt
+[1.364s] writing manifest file 'snake_game_interfaces.egg-info/SOURCES.txt'
+[1.365s] reading manifest file 'snake_game_interfaces.egg-info/SOURCES.txt'
+[1.365s] writing manifest file 'snake_game_interfaces.egg-info/SOURCES.txt'
+[1.382s] [  4%] Built target ament_cmake_python_build_snake_game_interfaces_egg
+[1.416s] [  4%] Built target snake_game_interfaces__cpp
+[1.420s] [  6%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_generator_c.dir/rosidl_generator_c/snake_game_interfaces/msg/detail/turtle__functions.c.o[0m
+[1.421s] [  8%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_generator_c.dir/rosidl_generator_c/snake_game_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[1.421s] [ 10%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_generator_c.dir/rosidl_generator_c/snake_game_interfaces/srv/detail/catch_turtle__functions.c.o[0m
+[1.422s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.422s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.422s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.457s] [ 19%] [32m[1mLinking C shared library libsnake_game_interfaces__rosidl_generator_c.so[0m
+[1.482s] [ 19%] Built target snake_game_interfaces__rosidl_generator_c
+[1.489s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.489s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.489s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.592s] [ 27%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snake_game_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[1.595s] [ 31%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snake_game_interfaces/msg/turtle__type_support.cpp.o[0m
+[1.595s] [ 31%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/snake_game_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[1.614s] [ 34%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snake_game_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[1.615s] [ 36%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snake_game_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[1.615s] [ 38%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/snake_game_interfaces/srv/detail/catch_turtle__type_support.cpp.o[0m
+[1.639s] [ 42%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snake_game_interfaces/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o[0m
+[1.639s] [ 42%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snake_game_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[1.639s] [ 44%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/snake_game_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[1.672s] [ 51%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/snake_game_interfaces/msg/turtle__type_support.cpp.o[0m
+[1.672s] [ 51%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/snake_game_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[1.673s] [ 51%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/snake_game_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[1.709s] [ 53%] [32m[1mLinking CXX shared library libsnake_game_interfaces__rosidl_typesupport_c.so[0m
+[1.758s] [ 59%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snake_game_interfaces/msg/detail/turtle__type_support.c.o[0m
+[1.758s] [ 59%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snake_game_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[1.758s] [ 59%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/snake_game_interfaces/srv/detail/catch_turtle__type_support.c.o[0m
+[1.762s] [ 59%] Built target snake_game_interfaces__rosidl_typesupport_c
+[1.788s] [ 61%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snake_game_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[1.788s] [ 63%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snake_game_interfaces/srv/detail/catch_turtle__type_support_c.cpp.o[0m
+[1.788s] [ 65%] [32mBuilding CXX object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/snake_game_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[1.803s] [ 68%] [32m[1mLinking C shared library libsnake_game_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.840s] [ 68%] Built target snake_game_interfaces__rosidl_typesupport_introspection_c
+[1.859s] [ 70%] [32m[1mLinking CXX shared library libsnake_game_interfaces__rosidl_typesupport_cpp.so[0m
+[1.888s] [ 70%] Built target snake_game_interfaces__rosidl_typesupport_cpp
+[1.988s] [ 72%] [32m[1mLinking CXX shared library libsnake_game_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.030s] [ 74%] [32m[1mLinking CXX shared library libsnake_game_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.037s] [ 74%] Built target snake_game_interfaces__rosidl_typesupport_introspection_cpp
+[2.056s] [ 76%] [32m[1mLinking CXX shared library libsnake_game_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.080s] [ 76%] Built target snake_game_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.104s] [ 76%] Built target snake_game_interfaces__rosidl_typesupport_fastrtps_c
+[2.118s] [ 76%] Built target snake_game_interfaces
+[2.139s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.440s] [ 78%] Built target snake_game_interfaces__py
+[2.454s] [ 80%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_generator_py.dir/rosidl_generator_py/snake_game_interfaces/msg/_turtle_s.c.o[0m
+[2.454s] [ 82%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_generator_py.dir/rosidl_generator_py/snake_game_interfaces/msg/_turtle_array_s.c.o[0m
+[2.455s] [ 85%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_generator_py.dir/rosidl_generator_py/snake_game_interfaces/srv/_catch_turtle_s.c.o[0m
+[2.519s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/snake_game_interfaces/libsnake_game_interfaces__rosidl_generator_py.so[0m
+[2.547s] [ 87%] Built target snake_game_interfaces__rosidl_generator_py
+[2.561s] [ 89%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/snake_game_interfaces/_snake_game_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.561s] [ 91%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/snake_game_interfaces/_snake_game_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.563s] [ 93%] [32mBuilding C object CMakeFiles/snake_game_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/snake_game_interfaces/_snake_game_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.621s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.623s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.624s] [100%] [32m[1mLinking C shared library rosidl_generator_py/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.642s] [100%] Built target snake_game_interfaces__rosidl_typesupport_c__pyext
+[2.645s] [100%] Built target snake_game_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.646s] [100%] Built target snake_game_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.654s] Invoked command in '/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/snake_game_ws/install/snake_game:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/snake_game_ws/build/snake_game_interfaces -- -j20 -l20
+[2.764s] Invoking command in '/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/snake_game_ws/install/snake_game:/opt/ros/humble /usr/bin/cmake --install /home/robomaven/ws/snake_game_ws/build/snake_game_interfaces
+[2.774s] -- Install configuration: ""
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/ament_index/resource_index/rosidl_interfaces/snake_game_interfaces
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/catch_turtle.h
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__functions.c
+[2.774s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__type_support.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__functions.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__struct.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/turtle.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/turtle_array.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__functions.c
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__functions.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__struct.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__functions.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__struct.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__functions.c
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__type_support.h
+[2.775s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__type_support.h
+[2.776s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/library_path.sh
+[2.776s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/library_path.dsv
+[2.776s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_generator_c.so
+[2.776s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_generator_c.so" to ""
+[2.776s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces
+[2.776s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv
+[2.776s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail
+[2.776s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h
+[2.777s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg
+[2.777s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.777s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.777s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces
+[2.777s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv
+[2.777s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__type_support.c
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h
+[2.777s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg
+[2.777s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.778s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__type_support.c
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__type_support.c
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_introspection_c.so
+[2.778s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_c.so
+[2.778s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_c.so" to ""
+[2.778s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces
+[2.778s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv
+[2.778s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/catch_turtle.hpp
+[2.779s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__builder.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__traits.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__struct.hpp
+[2.779s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/turtle_array.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/turtle.hpp
+[2.779s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__builder.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__traits.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__struct.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__builder.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__struct.hpp
+[2.779s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__traits.hpp
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/dds_fastrtps
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/dds_fastrtps
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.780s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.780s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces
+[2.780s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv
+[2.781s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/srv/detail/catch_turtle__type_support.cpp
+[2.781s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg
+[2.781s] -- Up-to-date: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__type_support.cpp
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__type_support.cpp
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/include/snake_game_interfaces/snake_game_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.781s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_cpp.so
+[2.781s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.781s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/pythonpath.sh
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/pythonpath.dsv
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces-0.0.0-py3.10.egg-info
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv/_catch_turtle.py
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv/_catch_turtle_s.c
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv/__init__.py
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/libsnake_game_interfaces__rosidl_generator_py.so
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/_turtle_s.c
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/_turtle_array_s.c
+[2.782s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/_turtle_array.py
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/_turtle.py
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/__init__.py
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/_snake_game_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/_snake_game_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/__init__.py
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.783s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/_snake_game_interfaces_s.ep.rosidl_typesupport_c.c
+[2.821s] Listing '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces'...
+[2.821s] Compiling '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/__init__.py'...
+[2.821s] Listing '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg'...
+[2.821s] Compiling '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/__init__.py'...
+[2.821s] Compiling '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/_turtle.py'...
+[2.821s] Compiling '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/msg/_turtle_array.py'...
+[2.821s] Listing '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv'...
+[2.821s] Compiling '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv/__init__.py'...
+[2.821s] Compiling '/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/srv/_catch_turtle.py'...
+[2.824s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.824s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.824s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.824s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.824s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.824s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/local/lib/python3.10/dist-packages/snake_game_interfaces/snake_game_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.824s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_generator_py.so
+[2.824s] -- Set runtime path of "/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib/libsnake_game_interfaces__rosidl_generator_py.so" to ""
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/msg/Turtle.idl
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/msg/TurtleArray.idl
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/srv/CatchTurtle.idl
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/msg/Turtle.msg
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/msg/TurtleArray.msg
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/srv/CatchTurtle.srv
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/srv/CatchTurtle_Request.msg
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/srv/CatchTurtle_Response.msg
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/ament_index/resource_index/package_run_dependencies/snake_game_interfaces
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/ament_index/resource_index/parent_prefix_path/snake_game_interfaces
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/ament_prefix_path.sh
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/ament_prefix_path.dsv
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/path.sh
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/environment/path.dsv
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/local_setup.bash
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/local_setup.sh
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/local_setup.zsh
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/local_setup.dsv
+[2.825s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/package.dsv
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/ament_index/resource_index/packages/snake_game_interfaces
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_generator_cExport.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_cExport.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_generator_cppExport.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.826s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_cppExport.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_generator_pyExport.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/export_snake_game_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfacesConfig.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/cmake/snake_game_interfacesConfig-version.cmake
+[2.827s] -- Installing: /home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/share/snake_game_interfaces/package.xml
+[2.829s] Invoked command in '/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/snake_game_ws/install/snake_game:/opt/ros/humble /usr/bin/cmake --install /home/robomaven/ws/snake_game_ws/build/snake_game_interfaces

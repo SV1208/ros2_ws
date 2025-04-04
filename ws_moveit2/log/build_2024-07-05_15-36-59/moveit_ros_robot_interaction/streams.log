@@ -1,0 +1,122 @@
+[0.025s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_ros/robot_interaction -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.143s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.213s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.214s] -- Found moveit_common: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.216s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.319s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.433s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.437s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.437s] -- BACKWARD_HAS_UNWIND=1
+[0.437s] -- BACKWARD_HAS_BACKTRACE=0
+[0.437s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.437s] -- BACKWARD_HAS_DW=1
+[0.437s] -- BACKWARD_HAS_BFD=0
+[0.437s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.438s] -- Found moveit_core: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.584s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.614s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.643s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.649s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.655s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.730s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.732s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.756s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.763s] -- Found Threads: TRUE  
+[0.888s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.890s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.927s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.019s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.236s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.990s] -- Found moveit_ros_planning: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.994s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.295s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[2.305s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.369s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.370s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.438s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.438s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.507s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.510s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.512s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.518s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.530s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.530s] -- Configured cppcheck include dirs: /home/robomaven/ws/ws_moveit2/moveit2/moveit_ros/robot_interaction/include
+[2.530s] -- Configured cppcheck exclude dirs and/or files: 
+[2.530s] -- Added test 'lint_cmake' to check CMake code style
+[2.531s] -- Added test 'xmllint' to check XML markup files
+[2.532s] -- Configuring done
+[2.560s] -- Generating done
+[2.561s] -- Build files have been written to: /home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction
+[2.574s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_ros/robot_interaction -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction
+[2.576s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction -- -j20 -l20
+[2.610s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.620s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.620s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/locked_robot_state.cpp.o[0m
+[2.620s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interactive_marker_helpers.cpp.o[0m
+[2.620s] [ 38%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[2.621s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options.cpp.o[0m
+[2.621s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options_map.cpp.o[0m
+[2.622s] [ 61%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[4.170s] [ 69%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.356s] [ 69%] Built target gtest_main
+[31.768s] [ 76%] [32m[1mLinking CXX static library libgtest.a[0m
+[31.828s] [ 76%] Built target gtest
+[84.401s] [ 84%] [32m[1mLinking CXX shared library libmoveit_robot_interaction.so[0m
+[84.597s] [ 84%] Built target moveit_robot_interaction
+[84.614s] [ 92%] [32mBuilding CXX object CMakeFiles/locked_robot_state_test.dir/test/locked_robot_state_test.cpp.o[0m
+[89.405s] [100%] [32m[1mLinking CXX executable locked_robot_state_test[0m
+[89.625s] [100%] Built target locked_robot_state_test
+[89.680s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction -- -j20 -l20
+[89.723s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction
+[89.728s] -- Install configuration: "Release"
+[89.729s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.5
+[89.730s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.5" to ""
+[89.730s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+[89.730s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include
+[89.730s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit
+[89.730s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction
+[89.731s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/robot_interaction.h
+[89.731s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options_map.h
+[89.731s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options.h
+[89.731s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction_handler.h
+[89.731s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction.h
+[89.731s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/locked_robot_state.h
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interactive_marker_helpers.h
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/include/moveit_robot_interaction_export.h
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+[89.732s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.sh
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.sh
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+[89.733s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport.cmake
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport-release.cmake
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_targets-extras.cmake
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.734s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+[89.735s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+[89.735s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml
+[89.749s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_ros_robot_interaction

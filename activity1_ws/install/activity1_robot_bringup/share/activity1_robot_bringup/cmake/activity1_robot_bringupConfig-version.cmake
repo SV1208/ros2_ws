@@ -1,0 +1,1 @@
+/home/robomaven/activity1_ws/build/activity1_robot_bringup/ament_cmake_core/activity1_robot_bringupConfig-version.cmake

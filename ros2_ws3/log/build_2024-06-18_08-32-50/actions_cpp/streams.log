@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/actions_cpp -- -j20 -l20
+[0.040s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.157s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.163s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.226s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.253s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.365s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.424s] -- Found my_robot_interfaces: 0.0.0 (/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.463s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.549s] -- Configuring done
+[0.551s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.551s]   Cannot find source file:
+[0.551s] 
+[0.551s]     src/count_until_server_queue_goals.cpp
+[0.551s] 
+[0.551s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.551s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.551s] 
+[0.551s] [0m
+[0.551s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.551s]   No SOURCES given to target: count_until_server_queue_goals
+[0.551s] 
+[0.551s] [0m
+[0.552s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.555s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.557s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp' returned '2': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/actions_cpp -- -j20 -l20

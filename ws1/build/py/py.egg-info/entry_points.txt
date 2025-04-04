@@ -1,0 +1,4 @@
+[console_scripts]
+first_node = py.first_node:main
+second_node = py.second_node:main
+

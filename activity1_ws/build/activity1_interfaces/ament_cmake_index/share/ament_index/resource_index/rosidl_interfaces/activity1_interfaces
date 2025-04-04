@@ -1,0 +1,6 @@
+msg/Panel.idl
+msg/Panel.msg
+srv/SetLED.idl
+srv/SetLED.srv
+srv/SetLED_Request.msg
+srv/SetLED_Response.msg

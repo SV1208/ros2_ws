@@ -1,0 +1,7 @@
+[01m[K/home/robomaven/activity1_ws/src/activity1_cpp_pkg/src/battery_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kactivity1_interfaces/srv/SetLED.hpp: No such file or directory
+    2 | #include [01;31m[K"activity1_interfaces/srv/SetLED.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/battery.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

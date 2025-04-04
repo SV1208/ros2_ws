@@ -1,0 +1,19 @@
+[0.399s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/actions_py': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/actions_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/actions_py/build --no-deps symlink_data
+[0.574s] running develop
+[0.668s] running egg_info
+[0.668s] writing actions_py.egg-info/PKG-INFO
+[0.668s] writing dependency_links to actions_py.egg-info/dependency_links.txt
+[0.668s] writing entry points to actions_py.egg-info/entry_points.txt
+[0.668s] writing requirements to actions_py.egg-info/requires.txt
+[0.668s] writing top-level names to actions_py.egg-info/top_level.txt
+[0.669s] reading manifest file 'actions_py.egg-info/SOURCES.txt'
+[0.669s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[0.670s] running build_ext
+[0.670s] Creating /home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[0.671s] Installing count_until_client script to /home/robomaven/ws/ros2_ws3/install/actions_py/lib/actions_py
+[0.671s] Installing count_until_server script to /home/robomaven/ws/ros2_ws3/install/actions_py/lib/actions_py
+[0.671s] Installing move_robot_server script to /home/robomaven/ws/ros2_ws3/install/actions_py/lib/actions_py
+[0.671s] 
+[0.671s] Installed /home/robomaven/ws/ros2_ws3/build/actions_py
+[0.671s] running symlink_data
+[0.688s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/actions_py' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/actions_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/actions_py/build --no-deps symlink_data

@@ -1,0 +1,250 @@
+[0.010s] Invoking command in '/home/robomaven/ws/ws1/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ws1/install/py:/opt/ros/humble /usr/bin/cmake /home/robomaven/ws/ws1/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws1/install/my_interfaces
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.081s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.192s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.203s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.366s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.373s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.899s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.916s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.917s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.917s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.917s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.930s] -- Found PythonExtra: .so  
+[0.954s] -- Configuring done
+[0.969s] -- Generating done
+[0.970s] -- Build files have been written to: /home/robomaven/ws/ws1/build/my_interfaces
+[0.975s] Invoked command in '/home/robomaven/ws/ws1/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ws1/install/py:/opt/ros/humble /usr/bin/cmake /home/robomaven/ws/ws1/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws1/install/my_interfaces
+[0.976s] Invoking command in '/home/robomaven/ws/ws1/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ws1/install/py:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ws1/build/my_interfaces -- -j20 -l20
+[1.006s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.016s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.021s] [  5%] Built target ament_cmake_python_copy_my_interfaces
+[1.173s] running egg_info
+[1.174s] creating my_interfaces.egg-info
+[1.174s] writing my_interfaces.egg-info/PKG-INFO
+[1.174s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[1.174s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[1.174s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.175s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.176s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.189s] [  5%] Built target my_interfaces__cpp
+[1.195s] [  7%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/project_info__functions.c.o[0m
+[1.195s] [ 10%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/killer_data__functions.c.o[0m
+[1.195s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.195s] [ 12%] Built target ament_cmake_python_build_my_interfaces_egg
+[1.195s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.196s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.225s] [ 20%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[1.250s] [ 20%] Built target my_interfaces__rosidl_generator_c
+[1.257s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.257s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.257s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.351s] [ 33%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/killer_data__type_support.cpp.o[0m
+[1.351s] [ 33%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/project_info__type_support.cpp.o[0m
+[1.360s] [ 35%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/killer_data__type_support.cpp.o[0m
+[1.360s] [ 38%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/project_info__type_support.cpp.o[0m
+[1.376s] [ 41%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/project_info__type_support.cpp.o[0m
+[1.377s] [ 43%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/killer_data__type_support.cpp.o[0m
+[1.427s] [ 46%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/project_info__type_support.c.o[0m
+[1.431s] [ 48%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/killer_data__type_support.c.o[0m
+[1.441s] [ 51%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/killer_data__type_support_c.cpp.o[0m
+[1.441s] [ 53%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/project_info__type_support_c.cpp.o[0m
+[1.450s] [ 56%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/project_info__type_support.cpp.o[0m
+[1.454s] [ 58%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/killer_data__type_support.cpp.o[0m
+[1.472s] [ 61%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.479s] [ 64%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[1.495s] [ 64%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[1.518s] [ 66%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[1.520s] [ 66%] Built target my_interfaces__rosidl_typesupport_c
+[1.547s] [ 66%] Built target my_interfaces__rosidl_typesupport_cpp
+[1.631s] [ 69%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.658s] [ 71%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.681s] [ 71%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[1.708s] [ 71%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[1.710s] [ 74%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.759s] [ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.773s] [ 74%] Built target my_interfaces
+[1.789s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.018s] [ 76%] Built target my_interfaces__py
+[2.031s] [ 79%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_project_info_s.c.o[0m
+[2.031s] [ 82%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_killer_data_s.c.o[0m
+[2.095s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so[0m
+[2.122s] [ 84%] Built target my_interfaces__rosidl_generator_py
+[2.137s] [ 89%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.137s] [ 89%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.138s] [ 92%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.194s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.194s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.196s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.215s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.215s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[2.217s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.226s] Invoked command in '/home/robomaven/ws/ws1/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ws1/install/py:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ws1/build/my_interfaces -- -j20 -l20
+[2.320s] Invoking command in '/home/robomaven/ws/ws1/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ws1/install/py:/opt/ros/humble /usr/bin/cmake --install /home/robomaven/ws/ws1/build/my_interfaces
+[2.328s] -- Install configuration: ""
+[2.328s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[2.328s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.328s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.328s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.328s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/project_info.h
+[2.328s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__type_support.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__type_support.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__struct.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__functions.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__struct.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__functions.c
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__functions.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__functions.c
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/killer_data.h
+[2.329s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[2.330s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[2.330s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[2.330s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[2.330s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.330s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.330s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.330s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.330s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.330s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__type_support.c
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_introspection_c.h
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_introspection_c.h
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__type_support.c
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[2.331s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[2.331s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/project_info.hpp
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__struct.hpp
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__traits.hpp
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__builder.hpp
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__builder.hpp
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__struct.hpp
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__traits.hpp
+[2.331s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/killer_data.hpp
+[2.331s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.332s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.332s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.332s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.332s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.332s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.332s] -- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_introspection_cpp.hpp
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__type_support.cpp
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__type_support.cpp
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_introspection_cpp.hpp
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.332s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[2.332s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.332s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_killer_data.py
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_killer_data_s.c
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_project_info_s.c
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_project_info.py
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[2.333s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[2.364s] Listing '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[2.364s] Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...
+[2.364s] Listing '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[2.364s] Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...
+[2.364s] Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_killer_data.py'...
+[2.364s] Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_project_info.py'...
+[2.367s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.367s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.367s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.367s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.367s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.368s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[2.368s] -- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/ProjectInfo.idl
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/KillerData.idl
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/ProjectInfo.msg
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/KillerData.msg
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/path.sh
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.bash
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.sh
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[2.368s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/package.dsv
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.369s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[2.370s] -- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/package.xml
+[2.372s] Invoked command in '/home/robomaven/ws/ws1/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ws1/install/py:/opt/ros/humble /usr/bin/cmake --install /home/robomaven/ws/ws1/build/my_interfaces

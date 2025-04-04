@@ -1,0 +1,7 @@
+[console_scripts]
+battery = activity1_py_pkg.battery_node:main
+led_panel = activity1_py_pkg.led_panel_node:main
+number_counter = activity1_py_pkg.number_counter_node_file:main
+number_publisher = activity1_py_pkg.number_publisher_node_file:main
+robot_news_station = activity1_py_pkg.my_first_node:main
+

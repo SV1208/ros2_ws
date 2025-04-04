@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating executors_py.egg-info
+writing executors_py.egg-info/PKG-INFO
+writing dependency_links to executors_py.egg-info/dependency_links.txt
+writing entry points to executors_py.egg-info/entry_points.txt
+writing requirements to executors_py.egg-info/requires.txt
+writing top-level names to executors_py.egg-info/top_level.txt
+writing manifest file 'executors_py.egg-info/SOURCES.txt'
+reading manifest file 'executors_py.egg-info/SOURCES.txt'
+writing manifest file 'executors_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robomaven/ws/ros2_ws3/install/executors_py/lib/python3.10/site-packages/executors-py.egg-link (link to .)
+Installing multi_threaded_executor script to /home/robomaven/ws/ros2_ws3/install/executors_py/lib/executors_py
+Installing single_threaded_executor script to /home/robomaven/ws/ros2_ws3/install/executors_py/lib/executors_py
+
+Installed /home/robomaven/ws/ros2_ws3/build/executors_py
+running symlink_data
+creating /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index
+creating /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index/resource_index
+creating /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index/resource_index/packages
+symbolically linking /home/robomaven/ws/ros2_ws3/build/executors_py/resource/executors_py -> /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index/resource_index/packages
+symbolically linking /home/robomaven/ws/ros2_ws3/build/executors_py/package.xml -> /home/robomaven/ws/ros2_ws3/install/executors_py/share/executors_py

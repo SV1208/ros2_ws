@@ -1,0 +1,18 @@
+[0.357s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_py_pkg': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data
+[0.514s] running develop
+[0.593s] running egg_info
+[0.593s] writing activity1_py_pkg.egg-info/PKG-INFO
+[0.593s] writing dependency_links to activity1_py_pkg.egg-info/dependency_links.txt
+[0.593s] writing entry points to activity1_py_pkg.egg-info/entry_points.txt
+[0.594s] writing requirements to activity1_py_pkg.egg-info/requires.txt
+[0.594s] writing top-level names to activity1_py_pkg.egg-info/top_level.txt
+[0.594s] reading manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.595s] writing manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.596s] running build_ext
+[0.596s] Creating /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1-py-pkg.egg-link (link to .)
+[0.596s] Installing number_publisher script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.596s] Installing robot_news_station script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.596s] 
+[0.596s] Installed /home/robomaven/activity1_ws/build/activity1_py_pkg
+[0.596s] running symlink_data
+[0.612s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_py_pkg' returned '0': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data

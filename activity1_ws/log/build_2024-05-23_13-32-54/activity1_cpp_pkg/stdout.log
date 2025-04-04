@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 50%] Built target number_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter_cpp_node_file.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number_counter[0m
+[100%] Built target number_counter
+-- Install configuration: ""
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_publisher
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_counter
+-- Set runtime path of "/home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_counter" to ""
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/activity1_cpp_pkg
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/activity1_cpp_pkg
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/path.sh
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.zsh
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.dsv
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/package.dsv
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/packages/activity1_cpp_pkg
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/cmake/activity1_cpp_pkgConfig.cmake
+-- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/cmake/activity1_cpp_pkgConfig-version.cmake
+-- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/package.xml

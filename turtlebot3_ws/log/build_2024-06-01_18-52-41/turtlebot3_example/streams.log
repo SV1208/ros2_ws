@@ -1,0 +1,87 @@
+[0.647s] Invoking command in '/home/robomaven/turtlebot3_ws/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/robomaven/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build install --record /home/robomaven/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.798s] running egg_info
+[0.798s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[0.798s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.798s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.798s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.798s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.798s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.798s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.799s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.799s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.799s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build
+[0.799s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib
+[0.800s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.800s] copying turtlebot3_example/__init__.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.800s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.800s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.800s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.800s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.800s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.800s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.800s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.800s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.800s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.800s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.800s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.800s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.800s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.800s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.800s] creating /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.801s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.801s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.801s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.801s] running install
+[0.801s] running install_lib
+[0.801s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[0.801s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.801s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.801s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.801s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.801s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.801s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.801s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.802s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.802s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.802s] copying /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[0.802s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-310.pyc
+[0.803s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc
+[0.803s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-310.pyc
+[0.803s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-310.pyc
+[0.803s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+[0.803s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+[0.803s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-310.pyc
+[0.804s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+[0.804s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc
+[0.804s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-310.pyc
+[0.804s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-310.pyc
+[0.804s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+[0.805s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-310.pyc
+[0.805s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-310.pyc
+[0.805s] byte-compiling /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+[0.805s] running install_data
+[0.805s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[0.805s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[0.805s] creating /home/robomaven/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.805s] copying resource/turtlebot3_example -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.805s] copying package.xml -> /home/robomaven/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[0.805s] running install_egg_info
+[0.806s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[0.806s] running install_scripts
+[0.819s] Installing turtlebot3_obstacle_detection script to /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.819s] Installing turtlebot3_patrol_client script to /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.819s] Installing turtlebot3_patrol_server script to /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.819s] Installing turtlebot3_position_control script to /home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.820s] writing list of installed files to '/home/robomaven/turtlebot3_ws/build/turtlebot3_example/install.log'
+[0.840s] Invoked command in '/home/robomaven/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/robomaven/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/robomaven/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/robomaven/turtlebot3_ws/build/turtlebot3_example/build install --record /home/robomaven/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data

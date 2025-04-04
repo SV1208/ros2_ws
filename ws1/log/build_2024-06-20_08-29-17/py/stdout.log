@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/py/py.egg-info/PKG-INFO
+writing dependency_links to ../../build/py/py.egg-info/dependency_links.txt
+writing entry points to ../../build/py/py.egg-info/entry_points.txt
+writing requirements to ../../build/py/py.egg-info/requires.txt
+writing top-level names to ../../build/py/py.egg-info/top_level.txt
+reading manifest file '../../build/py/py.egg-info/SOURCES.txt'
+writing manifest file '../../build/py/py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py/py.egg-info to /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing first_node script to /home/robomaven/ws/ws1/install/py/lib/py
+writing list of installed files to '/home/robomaven/ws/ws1/build/py/install.log'

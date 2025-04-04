@@ -1,0 +1,22 @@
+[0.387s] Invoking command in '/home/robomaven/ws/ros2_ws3/src/actions_py': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/actions_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/robomaven/ws/ros2_ws3/build/actions_py/build install --record /home/robomaven/ws/ros2_ws3/build/actions_py/install.log --single-version-externally-managed install_data
+[0.529s] running egg_info
+[0.529s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[0.529s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[0.530s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[0.530s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[0.530s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.531s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.531s] running build
+[0.531s] running build_py
+[0.531s] running install
+[0.531s] running install_lib
+[0.532s] running install_data
+[0.532s] running install_egg_info
+[0.533s] removing '/home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.533s] Copying ../../build/actions_py/actions_py.egg-info to /home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[0.533s] running install_scripts
+[0.546s] Installing count_until_client script to /home/robomaven/ws/ros2_ws3/install/actions_py/lib/actions_py
+[0.546s] Installing count_until_server script to /home/robomaven/ws/ros2_ws3/install/actions_py/lib/actions_py
+[0.546s] writing list of installed files to '/home/robomaven/ws/ros2_ws3/build/actions_py/install.log'
+[0.561s] Invoked command in '/home/robomaven/ws/ros2_ws3/src/actions_py' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/actions_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/robomaven/ws/ros2_ws3/build/actions_py/build install --record /home/robomaven/ws/ros2_ws3/build/actions_py/install.log --single-version-externally-managed install_data

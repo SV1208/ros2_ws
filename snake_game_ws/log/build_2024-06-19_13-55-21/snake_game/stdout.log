@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing snake_game.egg-info/PKG-INFO
+writing dependency_links to snake_game.egg-info/dependency_links.txt
+writing entry points to snake_game.egg-info/entry_points.txt
+writing requirements to snake_game.egg-info/requires.txt
+writing top-level names to snake_game.egg-info/top_level.txt
+reading manifest file 'snake_game.egg-info/SOURCES.txt'
+writing manifest file 'snake_game.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake-game.egg-link (link to .)
+Installing turtle_controller script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+Installing turtle_follower script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+Installing turtle_spawner script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+
+Installed /home/robomaven/ws/snake_game_ws/build/snake_game
+running symlink_data
+symbolically linking /home/robomaven/ws/snake_game_ws/build/snake_game/resource/snake_game -> /home/robomaven/ws/snake_game_ws/install/snake_game/share/ament_index/resource_index/packages
+symbolically linking /home/robomaven/ws/snake_game_ws/build/snake_game/package.xml -> /home/robomaven/ws/snake_game_ws/install/snake_game/share/snake_game

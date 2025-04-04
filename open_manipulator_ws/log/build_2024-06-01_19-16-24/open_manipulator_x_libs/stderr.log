@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findrobotis_manipulator.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "robotis_manipulator", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "robotis_manipulator" with any of the following names:
+
+    robotis_manipulatorConfig.cmake
+    robotis_manipulator-config.cmake
+
+  Add the installation prefix of "robotis_manipulator" to CMAKE_PREFIX_PATH
+  or set "robotis_manipulator_DIR" to a directory containing one of the above
+  files.  If "robotis_manipulator" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

@@ -1,0 +1,19 @@
+[0.455s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/lifecycle_py': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/lifecycle_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build --no-deps symlink_data --force
+[0.625s] running develop
+[0.708s] running egg_info
+[0.708s] writing lifecycle_py.egg-info/PKG-INFO
+[0.717s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.717s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.717s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.718s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.718s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.719s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.720s] running build_ext
+[0.720s] Creating /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.720s] Installing number_publisher script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.720s] 
+[0.721s] Installed /home/robomaven/ws/ros2_ws3/build/lifecycle_py
+[0.721s] running symlink_data
+[0.721s] symbolically linking /home/robomaven/ws/ros2_ws3/build/lifecycle_py/resource/lifecycle_py -> /home/robomaven/ws/ros2_ws3/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.721s] symbolically linking /home/robomaven/ws/ros2_ws3/build/lifecycle_py/package.xml -> /home/robomaven/ws/ros2_ws3/install/lifecycle_py/share/lifecycle_py
+[0.737s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/lifecycle_py' returned '0': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/lifecycle_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build --no-deps symlink_data --force

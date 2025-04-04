@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_cpp_pkg': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robomaven/activity1_ws/build/activity1_cpp_pkg -- -j20 -l20
+[0.048s] [ 12%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery_node.cpp.o[0m
+[0.050s] [ 62%] Built target number_counter
+[0.051s] [ 62%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher_cpp_node_file.cpp.o[0m
+[0.051s] [ 75%] Built target led_panel
+[1.709s] [ 87%] [32m[1mLinking CXX executable battery[0m
+[1.776s] [ 87%] Built target battery
+[2.673s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[2.798s] [100%] Built target number_publisher
+[2.807s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/robomaven/activity1_ws/build/activity1_cpp_pkg -- -j20 -l20
+[2.832s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_cpp_pkg': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robomaven/activity1_ws/build/activity1_cpp_pkg
+[2.839s] -- Install configuration: ""
+[2.840s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_publisher
+[2.841s] -- Set runtime path of "/home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_publisher" to ""
+[2.841s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/number_counter
+[2.841s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/led_panel
+[2.841s] -- Set runtime path of "/home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/led_panel" to ""
+[2.842s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/battery
+[2.842s] -- Set runtime path of "/home/robomaven/activity1_ws/install/activity1_cpp_pkg/lib/activity1_cpp_pkg/battery" to ""
+[2.842s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/activity1_cpp_pkg
+[2.842s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/activity1_cpp_pkg
+[2.842s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/ament_prefix_path.sh
+[2.842s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/ament_prefix_path.dsv
+[2.842s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/path.sh
+[2.842s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/environment/path.dsv
+[2.842s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.bash
+[2.843s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.sh
+[2.843s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.zsh
+[2.843s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/local_setup.dsv
+[2.843s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/package.dsv
+[2.843s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/ament_index/resource_index/packages/activity1_cpp_pkg
+[2.843s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/cmake/activity1_cpp_pkgConfig.cmake
+[2.843s] -- Up-to-date: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/cmake/activity1_cpp_pkgConfig-version.cmake
+[2.843s] -- Installing: /home/robomaven/activity1_ws/install/activity1_cpp_pkg/share/activity1_cpp_pkg/package.xml
+[2.845s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg:/home/robomaven/ros2_ws/install/my_py_pkg:/home/robomaven/activity1_ws/install/activity1_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/robomaven/activity1_ws/build/activity1_cpp_pkg

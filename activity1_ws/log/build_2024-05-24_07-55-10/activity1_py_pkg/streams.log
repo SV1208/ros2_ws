@@ -1,0 +1,23 @@
+[0.367s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_py_pkg': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data --force
+[0.528s] running develop
+[0.607s] running egg_info
+[0.607s] writing activity1_py_pkg.egg-info/PKG-INFO
+[0.607s] writing dependency_links to activity1_py_pkg.egg-info/dependency_links.txt
+[0.607s] writing entry points to activity1_py_pkg.egg-info/entry_points.txt
+[0.607s] writing requirements to activity1_py_pkg.egg-info/requires.txt
+[0.607s] writing top-level names to activity1_py_pkg.egg-info/top_level.txt
+[0.608s] reading manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.608s] writing manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.609s] running build_ext
+[0.609s] Creating /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1-py-pkg.egg-link (link to .)
+[0.610s] Installing battery script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.610s] Installing led_panel script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.610s] Installing number_counter script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.610s] Installing number_publisher script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.610s] Installing robot_news_station script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.610s] 
+[0.610s] Installed /home/robomaven/activity1_ws/build/activity1_py_pkg
+[0.610s] running symlink_data
+[0.611s] symbolically linking /home/robomaven/activity1_ws/build/activity1_py_pkg/resource/activity1_py_pkg -> /home/robomaven/activity1_ws/install/activity1_py_pkg/share/ament_index/resource_index/packages
+[0.611s] symbolically linking /home/robomaven/activity1_ws/build/activity1_py_pkg/package.xml -> /home/robomaven/activity1_ws/install/activity1_py_pkg/share/activity1_py_pkg
+[0.626s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces:/home/robomaven/ros2_ws/install/my_cpp_pkg:/home/robomaven/ros2_ws/install/my_robot_interfaces:/home/robomaven/activity1_ws/install/activity1_cpp_pkg LD_LIBRARY_PATH=/home/robomaven/activity1_ws/install/activity1_interfaces/lib:/home/robomaven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data --force

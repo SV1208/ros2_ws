@@ -1,0 +1,36 @@
+[0.391s] Invoking command in '/home/robomaven/ws/ws1/src/py': PYTHONPATH=/home/robomaven/ws/ws1/build/py/prefix_override:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py build --build-base /home/robomaven/ws/ws1/build/py/build install --record /home/robomaven/ws/ws1/build/py/install.log --single-version-externally-managed install_data
+[0.539s] running egg_info
+[0.539s] creating ../../build/py/py.egg-info
+[0.539s] writing ../../build/py/py.egg-info/PKG-INFO
+[0.539s] writing dependency_links to ../../build/py/py.egg-info/dependency_links.txt
+[0.539s] writing entry points to ../../build/py/py.egg-info/entry_points.txt
+[0.539s] writing requirements to ../../build/py/py.egg-info/requires.txt
+[0.539s] writing top-level names to ../../build/py/py.egg-info/top_level.txt
+[0.539s] writing manifest file '../../build/py/py.egg-info/SOURCES.txt'
+[0.540s] reading manifest file '../../build/py/py.egg-info/SOURCES.txt'
+[0.540s] writing manifest file '../../build/py/py.egg-info/SOURCES.txt'
+[0.541s] running build
+[0.541s] running build_py
+[0.541s] creating /home/robomaven/ws/ws1/build/py/build
+[0.541s] creating /home/robomaven/ws/ws1/build/py/build/lib
+[0.541s] creating /home/robomaven/ws/ws1/build/py/build/lib/py
+[0.541s] copying py/first_node.py -> /home/robomaven/ws/ws1/build/py/build/lib/py
+[0.541s] copying py/__init__.py -> /home/robomaven/ws/ws1/build/py/build/lib/py
+[0.541s] running install
+[0.541s] running install_lib
+[0.541s] creating /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py
+[0.541s] copying /home/robomaven/ws/ws1/build/py/build/lib/py/first_node.py -> /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py
+[0.541s] copying /home/robomaven/ws/ws1/build/py/build/lib/py/__init__.py -> /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py
+[0.541s] byte-compiling /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py/first_node.py to first_node.cpython-310.pyc
+[0.542s] byte-compiling /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py/__init__.py to __init__.cpython-310.pyc
+[0.542s] running install_data
+[0.542s] creating /home/robomaven/ws/ws1/install/py/share/ament_index
+[0.542s] creating /home/robomaven/ws/ws1/install/py/share/ament_index/resource_index
+[0.542s] creating /home/robomaven/ws/ws1/install/py/share/ament_index/resource_index/packages
+[0.542s] copying resource/py -> /home/robomaven/ws/ws1/install/py/share/ament_index/resource_index/packages
+[0.542s] copying package.xml -> /home/robomaven/ws/ws1/install/py/share/py
+[0.542s] running install_egg_info
+[0.543s] Copying ../../build/py/py.egg-info to /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py-0.0.0-py3.10.egg-info
+[0.543s] running install_scripts
+[0.556s] writing list of installed files to '/home/robomaven/ws/ws1/build/py/install.log'
+[0.571s] Invoked command in '/home/robomaven/ws/ws1/src/py' returned '0': PYTHONPATH=/home/robomaven/ws/ws1/build/py/prefix_override:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py build --build-base /home/robomaven/ws/ws1/build/py/build install --record /home/robomaven/ws/ws1/build/py/install.log --single-version-externally-managed install_data
