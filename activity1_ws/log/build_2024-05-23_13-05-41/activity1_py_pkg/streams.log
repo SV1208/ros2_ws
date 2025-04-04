@@ -1,0 +1,19 @@
+[0.394s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_py_pkg': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data
+[0.553s] running develop
+[0.642s] running egg_info
+[0.642s] writing activity1_py_pkg.egg-info/PKG-INFO
+[0.642s] writing dependency_links to activity1_py_pkg.egg-info/dependency_links.txt
+[0.642s] writing entry points to activity1_py_pkg.egg-info/entry_points.txt
+[0.642s] writing requirements to activity1_py_pkg.egg-info/requires.txt
+[0.642s] writing top-level names to activity1_py_pkg.egg-info/top_level.txt
+[0.643s] reading manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.643s] writing manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.644s] running build_ext
+[0.644s] Creating /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1-py-pkg.egg-link (link to .)
+[0.645s] Installing number_counter script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.645s] Installing number_publisher script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.645s] Installing robot_news_station script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.645s] 
+[0.645s] Installed /home/robomaven/activity1_ws/build/activity1_py_pkg
+[0.645s] running symlink_data
+[0.660s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_py_pkg' returned '0': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data

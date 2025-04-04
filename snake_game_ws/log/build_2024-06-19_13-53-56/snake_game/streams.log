@@ -1,0 +1,37 @@
+[0.397s] Invoking command in '/home/robomaven/ws/snake_game_ws/build/snake_game': LD_LIBRARY_PATH=/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/snake_game_ws/build/snake_game/prefix_override:/home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/robomaven/ws/snake_game_ws/build/snake_game/build
+[0.559s] running develop
+[0.650s] Removing /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake-game.egg-link (link to .)
+[0.667s] Invoked command in '/home/robomaven/ws/snake_game_ws/build/snake_game' returned '0': LD_LIBRARY_PATH=/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/snake_game_ws/build/snake_game/prefix_override:/home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/robomaven/ws/snake_game_ws/build/snake_game/build
+[0.667s] Invoking command in '/home/robomaven/ws/snake_game_ws/src/snake_game': LD_LIBRARY_PATH=/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/snake_game_ws/build/snake_game/prefix_override:/home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/snake_game build --build-base /home/robomaven/ws/snake_game_ws/build/snake_game/build install --record /home/robomaven/ws/snake_game_ws/build/snake_game/install.log --single-version-externally-managed install_data --force
+[0.816s] running egg_info
+[0.816s] writing ../../build/snake_game/snake_game.egg-info/PKG-INFO
+[0.817s] writing dependency_links to ../../build/snake_game/snake_game.egg-info/dependency_links.txt
+[0.817s] writing entry points to ../../build/snake_game/snake_game.egg-info/entry_points.txt
+[0.817s] writing requirements to ../../build/snake_game/snake_game.egg-info/requires.txt
+[0.817s] writing top-level names to ../../build/snake_game/snake_game.egg-info/top_level.txt
+[0.818s] reading manifest file '../../build/snake_game/snake_game.egg-info/SOURCES.txt'
+[0.818s] writing manifest file '../../build/snake_game/snake_game.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.819s] copying snake_game/turtle_controller.py -> /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game
+[0.819s] copying snake_game/turtle_spawner.py -> /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game
+[0.819s] running install
+[0.819s] running install_lib
+[0.819s] creating /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+[0.819s] copying /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game/turtle_controller.py -> /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+[0.819s] copying /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game/turtle_spawner.py -> /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+[0.819s] copying /home/robomaven/ws/snake_game_ws/build/snake_game/build/lib/snake_game/__init__.py -> /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game
+[0.820s] byte-compiling /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.820s] byte-compiling /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[0.821s] byte-compiling /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game/__init__.py to __init__.cpython-310.pyc
+[0.821s] running install_data
+[0.821s] copying resource/snake_game -> /home/robomaven/ws/snake_game_ws/install/snake_game/share/ament_index/resource_index/packages
+[0.821s] copying package.xml -> /home/robomaven/ws/snake_game_ws/install/snake_game/share/snake_game
+[0.821s] running install_egg_info
+[0.822s] Copying ../../build/snake_game/snake_game.egg-info to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages/snake_game-0.0.0-py3.10.egg-info
+[0.822s] running install_scripts
+[0.835s] Installing turtle_controller script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+[0.835s] Installing turtle_follower script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+[0.835s] Installing turtle_spawner script to /home/robomaven/ws/snake_game_ws/install/snake_game/lib/snake_game
+[0.835s] writing list of installed files to '/home/robomaven/ws/snake_game_ws/build/snake_game/install.log'
+[0.850s] Invoked command in '/home/robomaven/ws/snake_game_ws/src/snake_game' returned '0': LD_LIBRARY_PATH=/home/robomaven/ws/snake_game_ws/install/snake_game_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/robomaven/ws/snake_game_ws/build/snake_game/prefix_override:/home/robomaven/ws/snake_game_ws/install/snake_game/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/snake_game build --build-base /home/robomaven/ws/snake_game_ws/build/snake_game/build install --record /home/robomaven/ws/snake_game_ws/build/snake_game/install.log --single-version-externally-managed install_data --force

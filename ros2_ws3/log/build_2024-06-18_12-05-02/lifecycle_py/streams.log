@@ -1,0 +1,25 @@
+[0.484s] Invoking command in '/home/robomaven/ws/ros2_ws3/src/lifecycle_py': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/lifecycle_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build install --record /home/robomaven/ws/ros2_ws3/build/lifecycle_py/install.log --single-version-externally-managed install_data
+[0.637s] running egg_info
+[0.637s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[0.646s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[0.646s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[0.648s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.648s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.649s] running build
+[0.649s] running build_py
+[0.649s] copying lifecycle_py/move_robot_server.py -> /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build/lib/lifecycle_py
+[0.649s] running install
+[0.649s] running install_lib
+[0.650s] copying /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build/lib/lifecycle_py/move_robot_server.py -> /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.650s] byte-compiling /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/move_robot_server.py to move_robot_server.cpython-310.pyc
+[0.651s] running install_data
+[0.651s] running install_egg_info
+[0.652s] removing '/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.653s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[0.653s] running install_scripts
+[0.666s] Installing lifecycle_node_manager script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.666s] Installing number_publisher script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.666s] writing list of installed files to '/home/robomaven/ws/ros2_ws3/build/lifecycle_py/install.log'
+[0.680s] Invoked command in '/home/robomaven/ws/ros2_ws3/src/lifecycle_py' returned '0': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/lifecycle_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build install --record /home/robomaven/ws/ros2_ws3/build/lifecycle_py/install.log --single-version-externally-managed install_data

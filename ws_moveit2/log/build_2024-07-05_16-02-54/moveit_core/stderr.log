@@ -1,0 +1,3 @@
+gmake[2]: *** [robot_state/CMakeFiles/moveit_robot_state.dir/build.make:104: robot_state/CMakeFiles/moveit_robot_state.dir/src/robot_state.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1653: robot_state/CMakeFiles/moveit_robot_state.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

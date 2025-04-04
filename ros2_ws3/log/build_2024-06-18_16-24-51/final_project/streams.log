@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/final_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/final_project -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target final_project[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/final_project.dir/src/final_project.cpp.o[0m
+[2.493s] [100%] [32m[1mLinking CXX executable final_project[0m
+[2.606s] [100%] Built target final_project
+[2.616s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/final_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/final_project -- -j20 -l20
+[2.652s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/final_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/final_project
+[2.660s] -- Install configuration: ""
+[2.661s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/lib/final_project/final_project
+[2.662s] -- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/final_project/lib/final_project/final_project" to ""
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/path.sh
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/path.dsv
+[2.662s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.bash
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.sh
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.zsh
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.dsv
+[2.663s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/package.dsv
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/packages/final_project
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[2.663s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/package.xml
+[2.664s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/final_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/final_project

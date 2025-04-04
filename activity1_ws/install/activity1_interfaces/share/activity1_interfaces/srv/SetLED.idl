@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from activity1_interfaces/srv/SetLED.srv
+// generated code does not contain a copyright notice
+
+
+module activity1_interfaces {
+  module srv {
+    struct SetLED_Request {
+      @verbatim (language="comment", text=
+        "1 2 or 3")
+      int32 led_number;
+
+      @verbatim (language="comment", text=
+        "true for on, false for off")
+      boolean state;
+    };
+    struct SetLED_Response {
+      @verbatim (language="comment", text=
+        "true or false")
+      boolean success;
+    };
+  };
+};

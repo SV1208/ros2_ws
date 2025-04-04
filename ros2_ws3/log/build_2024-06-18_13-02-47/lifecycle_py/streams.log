@@ -1,0 +1,20 @@
+[0.397s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/lifecycle_py': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/lifecycle_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build --no-deps symlink_data
+[0.569s] running develop
+[0.662s] running egg_info
+[0.662s] writing lifecycle_py.egg-info/PKG-INFO
+[0.662s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.662s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.662s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.662s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.663s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.664s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.665s] running build_ext
+[0.665s] Creating /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.665s] Installing lifecycle_node_manager script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.665s] Installing move_robot_server script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.665s] Installing move_robot_startup script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.665s] Installing number_publisher script to /home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/lifecycle_py
+[0.665s] 
+[0.665s] Installed /home/robomaven/ws/ros2_ws3/build/lifecycle_py
+[0.665s] running symlink_data
+[0.682s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/lifecycle_py' returned '0': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/lifecycle_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/lifecycle_py/build --no-deps symlink_data

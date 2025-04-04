@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/actions_cpp -- -j20 -l20
+[0.050s] [ 33%] Built target count_until_server
+[0.050s] [ 66%] Built target count_until_client
+[0.050s] [ 83%] [32mBuilding CXX object CMakeFiles/count_until_server_queue_goal.dir/src/count_until_server_queue_goal.cpp.o[0m
+[2.285s] [100%] [32m[1mLinking CXX executable count_until_server_queue_goal[0m
+[2.387s] [100%] Built target count_until_server_queue_goal
+[2.398s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/actions_cpp -- -j20 -l20
+[2.435s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/actions_cpp
+[2.442s] -- Install configuration: ""
+[2.442s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_client
+[2.442s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_server
+[2.442s] -- Installing: /home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goal
+[2.444s] -- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goal" to ""
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/path.sh
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/environment/path.dsv
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.bash
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.sh
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.zsh
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/local_setup.dsv
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/package.dsv
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+[2.444s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+[2.445s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+[2.445s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/actions_cpp/share/actions_cpp/package.xml
+[2.446s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/actions_cpp

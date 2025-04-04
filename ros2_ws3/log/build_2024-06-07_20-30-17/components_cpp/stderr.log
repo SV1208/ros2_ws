@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19 (rclcpp_components_register_noes):
+  Unknown CMake command "rclcpp_components_register_noes".
+
+[0m
+gmake: *** [Makefile:321: cmake_check_build_system] Error 1

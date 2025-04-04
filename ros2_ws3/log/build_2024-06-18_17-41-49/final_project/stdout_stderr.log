@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target final_project[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/final_project.dir/src/final_project.cpp.o[0m
+[01m[K/home/robomaven/ws/ros2_ws3/src/final_project/src/final_project.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse TurtleController::goal_callback(const GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::MoveTurtle_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robomaven/ws/ros2_ws3/src/final_project/src/final_project.cpp:69:42:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   69 |             [01;35m[Krclcpp_action::GoalResponse::REJECT[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable final_project[0m
+[100%] Built target final_project
+-- Install configuration: ""
+-- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/lib/final_project/final_project
+-- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/final_project/lib/final_project/final_project" to ""
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/path.sh
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/path.dsv
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.bash
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.sh
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.zsh
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.dsv
+-- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/package.dsv
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/packages/final_project
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+-- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/package.xml

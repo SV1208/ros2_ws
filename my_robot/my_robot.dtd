@@ -1,0 +1,15 @@
+<!ELEMENT robot (material,link)>
+<!ATTLIST robot name NMTOKEN #REQUIRED>
+<!ELEMENT material (color)>
+<!ATTLIST material name NMTOKEN #REQUIRED>
+<!ELEMENT color EMPTY>
+<!ATTLIST color rgba CDATA #REQUIRED>
+<!ELEMENT link (visual)>
+<!ATTLIST link name NMTOKEN #REQUIRED>
+<!ELEMENT visual (geometry,origin)>
+<!ELEMENT geometry (box)>
+<!ELEMENT box EMPTY>
+<!ATTLIST box size CDATA #REQUIRED>
+<!ELEMENT origin EMPTY>
+<!ATTLIST origin xyz CDATA #REQUIRED>
+<!ATTLIST origin rpy CDATA #REQUIRED>

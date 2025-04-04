@@ -1,0 +1,43 @@
+[0.383s] Invoking command in '/home/robomaven/ws/ros2_ws3/src/components_py': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/components_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/components_py build --build-base /home/robomaven/ws/ros2_ws3/build/components_py/build install --record /home/robomaven/ws/ros2_ws3/build/components_py/install.log --single-version-externally-managed install_data
+[0.536s] running egg_info
+[0.536s] creating ../../build/components_py/components_py.egg-info
+[0.536s] writing ../../build/components_py/components_py.egg-info/PKG-INFO
+[0.536s] writing dependency_links to ../../build/components_py/components_py.egg-info/dependency_links.txt
+[0.536s] writing entry points to ../../build/components_py/components_py.egg-info/entry_points.txt
+[0.536s] writing requirements to ../../build/components_py/components_py.egg-info/requires.txt
+[0.536s] writing top-level names to ../../build/components_py/components_py.egg-info/top_level.txt
+[0.536s] writing manifest file '../../build/components_py/components_py.egg-info/SOURCES.txt'
+[0.537s] reading manifest file '../../build/components_py/components_py.egg-info/SOURCES.txt'
+[0.538s] writing manifest file '../../build/components_py/components_py.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.538s] running build_py
+[0.538s] creating /home/robomaven/ws/ros2_ws3/build/components_py/build
+[0.538s] creating /home/robomaven/ws/ros2_ws3/build/components_py/build/lib
+[0.546s] creating /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py
+[0.546s] copying components_py/node2.py -> /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py
+[0.546s] copying components_py/node1.py -> /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py
+[0.546s] copying components_py/manual_composition.py -> /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py
+[0.546s] copying components_py/__init__.py -> /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py
+[0.546s] running install
+[0.546s] running install_lib
+[0.547s] creating /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py
+[0.547s] copying /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py/node2.py -> /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py
+[0.547s] copying /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py/node1.py -> /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py
+[0.547s] copying /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py/manual_composition.py -> /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py
+[0.547s] copying /home/robomaven/ws/ros2_ws3/build/components_py/build/lib/components_py/__init__.py -> /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py
+[0.547s] byte-compiling /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py/node2.py to node2.cpython-310.pyc
+[0.548s] byte-compiling /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py/node1.py to node1.cpython-310.pyc
+[0.548s] byte-compiling /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py/manual_composition.py to manual_composition.cpython-310.pyc
+[0.548s] byte-compiling /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py/__init__.py to __init__.cpython-310.pyc
+[0.548s] running install_data
+[0.548s] creating /home/robomaven/ws/ros2_ws3/install/components_py/share/ament_index
+[0.548s] creating /home/robomaven/ws/ros2_ws3/install/components_py/share/ament_index/resource_index
+[0.548s] creating /home/robomaven/ws/ros2_ws3/install/components_py/share/ament_index/resource_index/packages
+[0.548s] copying resource/components_py -> /home/robomaven/ws/ros2_ws3/install/components_py/share/ament_index/resource_index/packages
+[0.548s] copying package.xml -> /home/robomaven/ws/ros2_ws3/install/components_py/share/components_py
+[0.548s] running install_egg_info
+[0.549s] Copying ../../build/components_py/components_py.egg-info to /home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages/components_py-0.0.0-py3.10.egg-info
+[0.550s] running install_scripts
+[0.562s] Installing manual_composition script to /home/robomaven/ws/ros2_ws3/install/components_py/lib/components_py
+[0.562s] writing list of installed files to '/home/robomaven/ws/ros2_ws3/build/components_py/install.log'
+[0.577s] Invoked command in '/home/robomaven/ws/ros2_ws3/src/components_py' returned '0': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/components_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/components_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/components_py build --build-base /home/robomaven/ws/ros2_ws3/build/components_py/build install --record /home/robomaven/ws/ros2_ws3/build/components_py/install.log --single-version-externally-managed install_data

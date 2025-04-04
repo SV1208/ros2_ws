@@ -1,0 +1,17 @@
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/turtlesim_catch_them_all.launch.py
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/my_robot.launch.py
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+/home/robomaven/ws/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml

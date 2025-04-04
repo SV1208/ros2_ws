@@ -1,0 +1,21 @@
+[0.361s] Invoking command in '/home/robomaven/activity1_ws/src/activity1_py_pkg': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activity1_py_pkg build --build-base /home/robomaven/activity1_ws/build/activity1_py_pkg/build install --record /home/robomaven/activity1_ws/build/activity1_py_pkg/install.log --single-version-externally-managed install_data
+[0.500s] running egg_info
+[0.501s] writing ../../build/activity1_py_pkg/activity1_py_pkg.egg-info/PKG-INFO
+[0.501s] writing dependency_links to ../../build/activity1_py_pkg/activity1_py_pkg.egg-info/dependency_links.txt
+[0.501s] writing entry points to ../../build/activity1_py_pkg/activity1_py_pkg.egg-info/entry_points.txt
+[0.501s] writing requirements to ../../build/activity1_py_pkg/activity1_py_pkg.egg-info/requires.txt
+[0.501s] writing top-level names to ../../build/activity1_py_pkg/activity1_py_pkg.egg-info/top_level.txt
+[0.502s] reading manifest file '../../build/activity1_py_pkg/activity1_py_pkg.egg-info/SOURCES.txt'
+[0.502s] writing manifest file '../../build/activity1_py_pkg/activity1_py_pkg.egg-info/SOURCES.txt'
+[0.503s] running build
+[0.503s] running build_py
+[0.503s] running install
+[0.503s] running install_lib
+[0.503s] running install_data
+[0.503s] running install_egg_info
+[0.504s] removing '/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.505s] Copying ../../build/activity1_py_pkg/activity1_py_pkg.egg-info to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1_py_pkg-0.0.0-py3.10.egg-info
+[0.505s] running install_scripts
+[0.517s] Installing number_publisher script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.517s] writing list of installed files to '/home/robomaven/activity1_ws/build/activity1_py_pkg/install.log'
+[0.531s] Invoked command in '/home/robomaven/activity1_ws/src/activity1_py_pkg' returned '0': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activity1_py_pkg build --build-base /home/robomaven/activity1_ws/build/activity1_py_pkg/build install --record /home/robomaven/activity1_ws/build/activity1_py_pkg/install.log --single-version-externally-managed install_data

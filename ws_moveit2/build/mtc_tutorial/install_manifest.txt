@@ -1,0 +1,17 @@
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/lib/mtc_tutorial/mtc_tutorial
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/launch/pick_place_demo.launch.py
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+/home/robomaven/ws/ws_moveit2/install/mtc_tutorial/share/mtc_tutorial/package.xml

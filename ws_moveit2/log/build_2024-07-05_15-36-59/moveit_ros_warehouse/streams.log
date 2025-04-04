@@ -1,0 +1,147 @@
+[0.026s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_ros/warehouse -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.216s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.216s] -- Detecting CXX compile features
+[0.217s] -- Detecting CXX compile features - done
+[0.218s] -- Found moveit_common: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.220s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.323s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.442s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.446s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.446s] -- BACKWARD_HAS_UNWIND=1
+[0.446s] -- BACKWARD_HAS_BACKTRACE=0
+[0.446s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.446s] -- BACKWARD_HAS_DW=1
+[0.446s] -- BACKWARD_HAS_BFD=0
+[0.447s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.448s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.474s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.484s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.557s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.582s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.589s] -- Looking for pthread.h
+[0.648s] -- Looking for pthread.h - found
+[0.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.721s] -- Found Threads: TRUE  
+[0.828s] -- Found moveit_core: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.854s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.884s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.897s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.899s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.933s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.029s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.243s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.997s] -- Found warehouse_ros: 2.0.4 (/opt/ros/humble/share/warehouse_ros/cmake)
+[2.061s] -- Found moveit_ros_planning: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.065s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.368s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.370s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.439s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.440s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.510s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.510s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.582s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.610s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.626s] -- Configured cppcheck include dirs: /home/robomaven/ws/ws_moveit2/moveit2/moveit_ros/warehouse/include
+[2.626s] -- Configured cppcheck exclude dirs and/or files: 
+[2.627s] -- Added test 'lint_cmake' to check CMake code style
+[2.628s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.628s] -- Added test 'xmllint' to check XML markup files
+[2.631s] -- Configuring done
+[2.766s] -- Generating done
+[2.769s] -- Build files have been written to: /home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse
+[2.790s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_ros/warehouse -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse
+[2.792s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse -- -j20 -l20
+[2.869s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[2.879s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[2.881s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[2.882s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[2.888s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[2.891s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[2.897s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[69.580s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[70.294s] [ 40%] Built target moveit_warehouse
+[70.346s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[83.321s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[83.509s] [ 50%] Built target moveit_warehouse_broadcast
+[83.524s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[89.627s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[89.817s] [ 60%] Built target moveit_warehouse_services
+[89.832s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[97.702s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[97.985s] [ 70%] Built target moveit_init_demo_warehouse
+[98.002s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[98.002s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[98.012s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[108.016s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[108.106s] [ 95%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[108.308s] [ 95%] Built target moveit_warehouse_save_as_text
+[108.395s] [ 95%] Built target moveit_warehouse_import_from_text
+[119.005s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[119.759s] [100%] Built target moveit_save_to_warehouse
+[119.795s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse -- -j20 -l20
+[119.864s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse
+[119.876s] -- Install configuration: "Release"
+[119.876s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[119.879s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[119.879s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[119.880s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[119.880s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[119.881s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[119.881s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[119.882s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[119.883s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[119.883s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[119.883s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[119.883s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[119.883s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[119.884s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[119.885s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[119.885s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5
+[119.887s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5" to ""
+[119.887s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[119.887s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[119.887s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[119.888s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[119.888s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[119.888s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[119.889s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[119.889s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[119.889s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[119.889s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[119.889s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[119.890s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[119.890s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[119.890s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[119.890s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[119.891s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[119.891s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[119.891s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[119.892s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[119.892s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[119.892s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[119.892s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[119.893s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[119.896s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_ros_planning/lib:/home/robomaven/ws/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_ros_warehouse

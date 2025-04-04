@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/activity1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/activity1_interfaces/msg/detail/panel__type_support.c.o"
+  "CMakeFiles/activity1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/activity1_interfaces/msg/detail/panel__type_support.c.o.d"
+  "CMakeFiles/activity1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/activity1_interfaces/srv/detail/set_led__type_support.c.o"
+  "CMakeFiles/activity1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/activity1_interfaces/srv/detail/set_led__type_support.c.o.d"
+  "libactivity1_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libactivity1_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/activity1_interfaces/msg/detail/panel__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/activity1_interfaces/msg/detail/panel__type_support.c"
+  "rosidl_typesupport_introspection_c/activity1_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/activity1_interfaces/srv/detail/set_led__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/activity1_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

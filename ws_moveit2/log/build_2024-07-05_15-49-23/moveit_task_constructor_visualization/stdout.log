@@ -1,0 +1,96 @@
+[  1%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+[  3%] [34m[1mAutomatic MOC for target motion_planning_tasks_properties[0m
+[  4%] [34m[1mAutomatic MOC for target motion_planning_tasks_utils[0m
+[  6%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  7%] [34m[1mAutomatic MOC for target gtest[0m
+[  7%] Built target moveit_task_visualization_tools_autogen
+[  7%] Built target motion_planning_tasks_properties_autogen
+[  7%] Built target motion_planning_tasks_utils_autogen
+[  7%] Built target gtest_main_autogen
+[  7%] Built target gtest_autogen
+[  9%] [34m[1mAutomatic MOC for target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_tasks_properties[0m
+[ 10%] [34m[1mAutomatic MOC for target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_tasks_utils[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_visualization_tools[0m
+[ 10%] Built target gmock_autogen
+[ 16%] Built target motion_planning_tasks_properties
+[ 24%] Built target motion_planning_tasks_utils
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 24%] Built target gmock_main_autogen
+[ 29%] Built target gtest
+[ 38%] Built target moveit_task_visualization_tools
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[ 43%] Built target gmock_main
+[ 44%] [34m[1mAutomatic MOC for target motion_planning_tasks_rviz_plugin[0m
+[ 44%] Built target motion_planning_tasks_rviz_plugin_autogen
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 50%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_tasks_rviz_plugin[0m
+[ 52%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/motion_planning_tasks_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 53%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_panel.cpp.o[0m
+[ 55%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_display.cpp.o[0m
+[ 56%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/plugin_init.cpp.o[0m
+[ 58%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/remote_task_model.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmotion_planning_tasks_rviz_plugin.so[0m
+[ 76%] Built target motion_planning_tasks_rviz_plugin
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 78%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-solution-models[0m
+[ 83%] Built target gtest_main
+[ 86%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-merge-models[0m
+[ 86%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-task_model[0m
+[ 86%] Built target moveit_task_constructor_visualization-test-solution-models_autogen
+[ 86%] Built target moveit_task_constructor_visualization-test-merge-models_autogen
+[ 86%] Built target moveit_task_constructor_visualization-test-task_model_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_visualization-test-merge-models[0m
+[ 87%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-solution-models.dir/moveit_task_constructor_visualization-test-solution-models_autogen/mocs_compilation.cpp.o[0m
+[ 89%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-solution-models.dir/test_solution_models.cpp.o[0m
+[ 93%] Built target moveit_task_constructor_visualization-test-merge-models
+[ 95%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-task_model.dir/moveit_task_constructor_visualization-test-task_model_autogen/mocs_compilation.cpp.o[0m
+[ 96%] [32mBuilding CXX object motion_planning_tasks/test/CMakeFiles/moveit_task_constructor_visualization-test-task_model.dir/test_task_model.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-solution-models[0m
+[100%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-task_model[0m
+[100%] Built target moveit_task_constructor_visualization-test-solution-models
+[100%] Built target moveit_task_constructor_visualization-test-task_model
+-- Install configuration: "Release"
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/icons
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/icons/classes
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/icons/classes/Motion Planning Tasks.svg
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/motion_planning_tasks_rviz_plugin_description.xml
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/library_path.sh
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/library_path.dsv
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_visualization
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_visualization
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/ament_prefix_path.dsv
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/path.sh
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/environment/path.dsv
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.bash
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.sh
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.zsh
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/local_setup.dsv
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/package.dsv
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/packages/moveit_task_constructor_visualization
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_task_constructor_visualization
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/moveit_task_constructor_visualizationConfig.cmake
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/cmake/moveit_task_constructor_visualizationConfig-version.cmake
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/share/moveit_task_constructor_visualization/package.xml
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/task_solution_panel.h
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/display_solution.h
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/task_solution_visualization.h
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/include/moveit/visualization_tools/marker_visualization.h
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so.0.1.3
+-- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so.0.1.3" to ""
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmoveit_task_visualization_tools.so
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_utils.so
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_properties.so
+-- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_properties.so" to ""
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3
+-- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so.0.1.3" to ""
+-- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_task_constructor_visualization/lib/libmotion_planning_tasks_rviz_plugin.so

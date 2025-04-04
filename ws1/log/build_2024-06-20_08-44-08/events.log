@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (-) JobUnselected: {'identifier': 'py'}
+[0.000214] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.000227] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.006784] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.006940] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.007490] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robomaven/ws/ws1/build/my_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/robomaven/ws/ws1/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'robomaven'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robomaven/ws/ws1/install/my_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/robomaven'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robomaven/ws/ws1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1702'), ('SYSTEMD_EXEC_PID', '2416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11878'), ('COLCON_PREFIX_PATH', '/home/robomaven/ws/ws1/install:/home/robomaven/ws/ros2_ws2/install:/home/robomaven/ws/tb3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomaven'), ('JOURNAL_STREAM', '8:33020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robomaven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/robomaven/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2147,unix/victus:/tmp/.ICE-unix/2147'), ('INVOCATION_ID', 'b7dc06e8cd9649598b7f239c98c4614f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robomaven/ws/ws1/install/py:/home/robomaven/ws/ws1/install/my_interfaces:/home/robomaven/ws/ros2_ws2/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2/install/my_robot_description:/home/robomaven/ws/tb3_ws/install/turtlebot3_simulations:/home/robomaven/ws/tb3_ws/install/turtlebot3_gazebo:/home/robomaven/ws/tb3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robomaven/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c0c2ba38-a3ae-4725-a615-9768608bddf0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robomaven/ws/ws1/build/my_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robomaven/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robomaven/ws/ws1/build/py:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robomaven/ws/ws1/install/my_interfaces:/home/robomaven/ws/ros2_ws2/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2/install/my_robot_description:/home/robomaven/ws/tb3_ws/install/turtlebot3_simulations:/home/robomaven/ws/tb3_ws/install/turtlebot3_gazebo:/home/robomaven/ws/tb3_ws/install/turtlebot3_fake_node:/home/robomaven/ws/ws1/install/py:/opt/ros/humble')]), 'shell': False}
+[0.025362] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099641] (-) TimerEvent: {}
+[0.115780] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.117065] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.118743] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.140175] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199753] (-) TimerEvent: {}
+[0.299986] (-) TimerEvent: {}
+[0.323453] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400166] (-) TimerEvent: {}
+[0.448868] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500342] (-) TimerEvent: {}
+[0.600624] (-) TimerEvent: {}
+[0.606618] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.622403] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.638253] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.638380] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.638427] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.652530] (my_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.669960] (my_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.671337] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/robomaven/ws/ws1/build/my_interfaces\n'}
+[0.687762] (my_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.694453] (my_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.700231] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[0.700690] (-) TimerEvent: {}
+[0.800863] (-) TimerEvent: {}
+[0.855560] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.855811] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[0.856007] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[0.856113] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[0.857428] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[0.857918] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[0.874139] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[0.901027] (-) TimerEvent: {}
+[0.933778] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target my_interfaces__cpp\n'}
+[0.937789] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.940377] (my_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.940573] (my_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.940614] (my_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.945510] (my_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/project_info__functions.c.o\x1b[0m\n'}
+[0.945665] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/killer_data__functions.c.o\x1b[0m\n'}
+[0.945778] (my_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/login__functions.c.o\x1b[0m\n'}
+[0.945874] (my_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[0.982413] (my_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.001120] (-) TimerEvent: {}
+[1.007984] (my_interfaces) StdoutLine: {'line': b'[ 18%] Built target my_interfaces__rosidl_generator_c\n'}
+[1.014774] (my_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.014920] (my_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.015161] (my_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.101351] (-) TimerEvent: {}
+[1.112835] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.121264] (my_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/project_info__type_support.cpp.o\x1b[0m\n'}
+[1.121973] (my_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/killer_data__type_support.cpp.o\x1b[0m\n'}
+[1.125489] (my_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[1.125627] (my_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/login__type_support.cpp.o\x1b[0m\n'}
+[1.173580] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.182966] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.188948] (my_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[1.189206] (my_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/login__type_support.cpp.o\x1b[0m\n'}
+[1.189479] (my_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/project_info__type_support.cpp.o\x1b[0m\n'}
+[1.189799] (my_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/killer_data__type_support.cpp.o\x1b[0m\n'}
+[1.197670] (my_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/login__type_support.cpp.o\x1b[0m\n'}
+[1.198580] (my_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[1.198806] (my_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/killer_data__type_support.cpp.o\x1b[0m\n'}
+[1.198915] (my_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/project_info__type_support.cpp.o\x1b[0m\n'}
+[1.201441] (-) TimerEvent: {}
+[1.207187] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.220423] (my_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/login__type_support.cpp.o\x1b[0m\n'}
+[1.220671] (my_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/project_info__type_support.cpp.o\x1b[0m\n'}
+[1.220803] (my_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[1.221467] (my_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/killer_data__type_support.cpp.o\x1b[0m\n'}
+[1.262674] (my_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.274901] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.290826] (my_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/killer_data__type_support_c.cpp.o\x1b[0m\n'}
+[1.291641] (my_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/project_info__type_support_c.cpp.o\x1b[0m\n'}
+[1.301599] (-) TimerEvent: {}
+[1.302207] (my_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[1.302493] (my_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/login__type_support_c.cpp.o\x1b[0m\n'}
+[1.314854] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.318372] (my_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[1.330649] (my_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/login__type_support.c.o\x1b[0m\n'}
+[1.330906] (my_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/killer_data__type_support.c.o\x1b[0m\n'}
+[1.331014] (my_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/project_info__type_support.c.o\x1b[0m\n'}
+[1.344149] (my_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[1.389527] (my_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.401736] (-) TimerEvent: {}
+[1.422411] (my_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.478705] (my_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.501897] (-) TimerEvent: {}
+[1.526479] (my_interfaces) StdoutLine: {'line': b'[ 72%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[1.601998] (-) TimerEvent: {}
+[1.627634] (my_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.668139] (my_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.668297] (my_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.674709] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.702197] (-) TimerEvent: {}
+[1.716456] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.716590] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.729429] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces\n'}
+[1.742625] (my_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.802389] (-) TimerEvent: {}
+[1.902716] (-) TimerEvent: {}
+[2.003010] (-) TimerEvent: {}
+[2.091641] (my_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_interfaces__py\n'}
+[2.099208] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_py\x1b[0m\n'}
+[2.103198] (-) TimerEvent: {}
+[2.109897] (my_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_project_info_s.c.o\x1b[0m\n'}
+[2.110223] (my_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_killer_data_s.c.o\x1b[0m\n'}
+[2.110837] (my_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_login_s.c.o\x1b[0m\n'}
+[2.111482] (my_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_kill_s.c.o\x1b[0m\n'}
+[2.176383] (my_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.203485] (-) TimerEvent: {}
+[2.204129] (my_interfaces) StdoutLine: {'line': b'[ 89%] Built target my_interfaces__rosidl_generator_py\n'}
+[2.215433] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.215828] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.215933] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.224364] (my_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.224753] (my_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.224833] (my_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.286322] (my_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.286469] (my_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.287180] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.303567] (-) TimerEvent: {}
+[2.307346] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.307479] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.307653] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.315669] (my_interfaces) CommandEnded: {'returncode': 0}
+[2.403665] (-) TimerEvent: {}
+[2.425899] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[2.434744] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robomaven/ws/ws1/build/my_interfaces'], 'cwd': '/home/robomaven/ws/ws1/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'robomaven'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robomaven/ws/ws1/install/my_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/robomaven'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/robomaven/ws/ws1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1702'), ('SYSTEMD_EXEC_PID', '2416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11878'), ('COLCON_PREFIX_PATH', '/home/robomaven/ws/ws1/install:/home/robomaven/ws/ros2_ws2/install:/home/robomaven/ws/tb3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomaven'), ('JOURNAL_STREAM', '8:33020'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robomaven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/robomaven/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2147,unix/victus:/tmp/.ICE-unix/2147'), ('INVOCATION_ID', 'b7dc06e8cd9649598b7f239c98c4614f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robomaven/ws/ws1/install/py:/home/robomaven/ws/ws1/install/my_interfaces:/home/robomaven/ws/ros2_ws2/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2/install/my_robot_description:/home/robomaven/ws/tb3_ws/install/turtlebot3_simulations:/home/robomaven/ws/tb3_ws/install/turtlebot3_gazebo:/home/robomaven/ws/tb3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robomaven/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c0c2ba38-a3ae-4725-a615-9768608bddf0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robomaven/ws/ws1/build/my_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robomaven/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robomaven/ws/ws1/build/py:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robomaven/ws/ws1/install/my_interfaces:/home/robomaven/ws/ros2_ws2/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2/install/my_robot_description:/home/robomaven/ws/tb3_ws/install/turtlebot3_simulations:/home/robomaven/ws/tb3_ws/install/turtlebot3_gazebo:/home/robomaven/ws/tb3_ws/install/turtlebot3_fake_node:/home/robomaven/ws/ws1/install/py:/opt/ros/humble')]), 'shell': False}
+[2.444351] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.444570] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[2.444654] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[2.444776] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[2.444842] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[2.444900] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__functions.h\n'}
+[2.444959] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__type_support.h\n'}
+[2.445065] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__functions.c\n'}
+[2.445218] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__struct.h\n'}
+[2.445278] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/kill.h\n'}
+[2.445355] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[2.445424] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.445492] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/project_info.h\n'}
+[2.445545] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[2.445601] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__functions.c\n'}
+[2.445655] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__functions.h\n'}
+[2.445708] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__type_support.h\n'}
+[2.445786] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__type_support.h\n'}
+[2.445881] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__struct.h\n'}
+[2.445936] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__functions.h\n'}
+[2.445991] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__struct.h\n'}
+[2.446046] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__struct.h\n'}
+[2.446122] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__functions.c\n'}
+[2.446212] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__type_support.h\n'}
+[2.446266] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__functions.h\n'}
+[2.446320] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__functions.c\n'}
+[2.446396] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/login.h\n'}
+[2.446446] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/killer_data.h\n'}
+[2.446518] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[2.446594] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[2.446769] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[2.447054] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[2.447143] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[2.447204] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[2.447295] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[2.447352] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[2.447444] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[2.447501] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[2.447556] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__rosidl_typesupport_fastrtps_c.h\n'}
+[2.447633] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_fastrtps_c.h\n'}
+[2.447721] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.447778] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.447853] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.448085] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.448189] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[2.448250] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[2.448308] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[2.448386] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[2.448488] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__type_support.c\n'}
+[2.448553] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[2.448601] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.448654] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[2.448705] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__rosidl_typesupport_introspection_c.h\n'}
+[2.448756] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__type_support.c\n'}
+[2.448842] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_introspection_c.h\n'}
+[2.448892] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_introspection_c.h\n'}
+[2.448945] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__type_support.c\n'}
+[2.448993] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__type_support.c\n'}
+[2.449062] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.449261] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.449347] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[2.449534] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[2.449604] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[2.449653] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[2.449717] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/kill.hpp\n'}
+[2.449794] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[2.449843] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__struct.hpp\n'}
+[2.449891] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__builder.hpp\n'}
+[2.449956] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__traits.hpp\n'}
+[2.450035] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[2.450085] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/project_info.hpp\n'}
+[2.450132] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/login.hpp\n'}
+[2.450200] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[2.450247] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__struct.hpp\n'}
+[2.450292] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__traits.hpp\n'}
+[2.450359] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__builder.hpp\n'}
+[2.450407] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__struct.hpp\n'}
+[2.450479] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__builder.hpp\n'}
+[2.450529] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__builder.hpp\n'}
+[2.450602] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__struct.hpp\n'}
+[2.450652] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__traits.hpp\n'}
+[2.450713] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__traits.hpp\n'}
+[2.450775] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/killer_data.hpp\n'}
+[2.450828] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[2.450891] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[2.450963] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[2.451008] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps\n'}
+[2.451050] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.451111] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[2.451183] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.451229] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[2.451279] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps\n'}
+[2.451323] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.451366] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.451431] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.451473] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.451619] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.451678] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[2.451739] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[2.451811] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[2.451855] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.451901] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/kill__type_support.cpp\n'}
+[2.451961] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[2.452023] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[2.452071] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__type_support.cpp\n'}
+[2.452128] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452198] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/login__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452253] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__type_support.cpp\n'}
+[2.452298] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/killer_data__type_support.cpp\n'}
+[2.452337] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/project_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452390] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.452609] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.452682] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.452831] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[2.452884] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[2.452919] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[2.453651] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.453749] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.453804] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.453841] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.453876] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.453911] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces\n'}
+[2.453945] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv\n'}
+[2.453978] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_kill.py\n'}
+[2.454011] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_kill_s.c\n'}
+[2.454062] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py\n'}
+[2.454102] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg\n'}
+[2.454132] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_killer_data.py\n'}
+[2.454165] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_killer_data_s.c\n'}
+[2.454198] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_login_s.c\n'}
+[2.454231] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_project_info_s.c\n'}
+[2.454263] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_login.py\n'}
+[2.454295] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py\n'}
+[2.454327] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_project_info.py\n'}
+[2.454358] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.454389] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.454420] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.454451] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.454498] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.454527] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.454557] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so\n'}
+[2.454585] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py\n'}
+[2.483405] (my_interfaces) StdoutLine: {'line': b"Listing '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...\n"}
+[2.483486] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...\n"}
+[2.483522] (my_interfaces) StdoutLine: {'line': b"Listing '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...\n"}
+[2.483552] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...\n"}
+[2.483587] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_killer_data.py'...\n"}
+[2.483618] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_login.py'...\n"}
+[2.483651] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_project_info.py'...\n"}
+[2.483679] (my_interfaces) StdoutLine: {'line': b"Listing '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...\n"}
+[2.483705] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...\n"}
+[2.483732] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_kill.py'...\n"}
+[2.486608] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.486694] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.486749] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.486836] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.486910] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.487071] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.487151] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[2.487370] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/robomaven/ws/ws1/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[2.487482] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/ProjectInfo.idl\n'}
+[2.487526] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/KillerData.idl\n'}
+[2.487560] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/Login.idl\n'}
+[2.487593] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/srv/Kill.idl\n'}
+[2.487655] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/ProjectInfo.msg\n'}
+[2.487700] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/KillerData.msg\n'}
+[2.487733] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/msg/Login.msg\n'}
+[2.487769] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/srv/Kill.srv\n'}
+[2.487942] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/srv/Kill_Request.msg\n'}
+[2.488004] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/srv/Kill_Response.msg\n'}
+[2.488039] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[2.488071] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[2.488102] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[2.488132] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.488162] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[2.488191] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[2.488221] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[2.488285] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[2.488325] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[2.488355] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[2.488385] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[2.488415] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[2.488445] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.488476] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.488505] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.488534] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.488563] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.488612] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.488646] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.488708] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.488741] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.488772] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.488811] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.488842] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.488871] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.488901] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.488932] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.488962] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.488992] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.489020] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.489050] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.489101] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.489129] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.489157] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.489185] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.489212] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.489240] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[2.489267] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[2.489296] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robomaven/ws/ws1/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[2.490364] (my_interfaces) CommandEnded: {'returncode': 0}
+[2.503762] (-) TimerEvent: {}
+[2.604019] (-) TimerEvent: {}
+[2.617881] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[2.618432] (-) EventReactorShutdown: {}

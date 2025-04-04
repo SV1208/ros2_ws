@@ -1,0 +1,23 @@
+{
+  "package_name": "snake_game_interfaces",
+  "output_dir": "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_typesupport_introspection_cpp/snake_game_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_adapter/snake_game_interfaces:msg/Turtle.idl",
+    "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_adapter/snake_game_interfaces:msg/TurtleArray.idl",
+    "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_adapter/snake_game_interfaces:srv/CatchTurtle.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_adapter/snake_game_interfaces/msg/Turtle.idl",
+    "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_adapter/snake_game_interfaces/msg/TurtleArray.idl",
+    "/home/robomaven/ws/snake_game_ws/build/snake_game_interfaces/rosidl_adapter/snake_game_interfaces/srv/CatchTurtle.idl"
+  ]
+}

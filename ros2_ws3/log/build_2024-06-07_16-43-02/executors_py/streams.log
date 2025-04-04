@@ -1,0 +1,25 @@
+[0.379s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/executors_py': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/executors_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/executors_py/build --no-deps symlink_data
+[0.545s] running develop
+[0.627s] running egg_info
+[0.627s] creating executors_py.egg-info
+[0.627s] writing executors_py.egg-info/PKG-INFO
+[0.627s] writing dependency_links to executors_py.egg-info/dependency_links.txt
+[0.627s] writing entry points to executors_py.egg-info/entry_points.txt
+[0.627s] writing requirements to executors_py.egg-info/requires.txt
+[0.627s] writing top-level names to executors_py.egg-info/top_level.txt
+[0.627s] writing manifest file 'executors_py.egg-info/SOURCES.txt'
+[0.628s] reading manifest file 'executors_py.egg-info/SOURCES.txt'
+[0.628s] writing manifest file 'executors_py.egg-info/SOURCES.txt'
+[0.629s] running build_ext
+[0.629s] Creating /home/robomaven/ws/ros2_ws3/install/executors_py/lib/python3.10/site-packages/executors-py.egg-link (link to .)
+[0.630s] Installing multi_threaded_executor script to /home/robomaven/ws/ros2_ws3/install/executors_py/lib/executors_py
+[0.630s] Installing single_threaded_executor script to /home/robomaven/ws/ros2_ws3/install/executors_py/lib/executors_py
+[0.630s] 
+[0.630s] Installed /home/robomaven/ws/ros2_ws3/build/executors_py
+[0.630s] running symlink_data
+[0.630s] creating /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index
+[0.630s] creating /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index/resource_index
+[0.630s] creating /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index/resource_index/packages
+[0.630s] symbolically linking /home/robomaven/ws/ros2_ws3/build/executors_py/resource/executors_py -> /home/robomaven/ws/ros2_ws3/install/executors_py/share/ament_index/resource_index/packages
+[0.630s] symbolically linking /home/robomaven/ws/ros2_ws3/build/executors_py/package.xml -> /home/robomaven/ws/ros2_ws3/install/executors_py/share/executors_py
+[0.647s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/executors_py' returned '0': PYTHONPATH=/home/robomaven/ws/ros2_ws3/build/executors_py/prefix_override:/home/robomaven/ws/ros2_ws3/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ros2_ws3/build/executors_py/build --no-deps symlink_data

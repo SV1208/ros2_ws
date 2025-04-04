@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_planners/chomp/chomp_optimizer_adapter -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.205s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.216s] -- Found moveit_common: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.218s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.440s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.443s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.443s] -- BACKWARD_HAS_UNWIND=1
+[0.444s] -- BACKWARD_HAS_BACKTRACE=0
+[0.444s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.444s] -- BACKWARD_HAS_DW=1
+[0.444s] -- BACKWARD_HAS_BFD=0
+[0.444s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.445s] -- Found chomp_motion_planner: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake)
+[0.445s] -- Found moveit_core: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.607s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.639s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.667s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.670s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.677s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.751s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.753s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.776s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.783s] -- Found Threads: TRUE  
+[0.907s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.909s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.943s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.040s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.257s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.034s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.043s] -- Configured cppcheck include dirs: 
+[2.043s] -- Configured cppcheck exclude dirs and/or files: 
+[2.043s] -- Added test 'xmllint' to check XML markup files
+[2.044s] -- Configuring done
+[2.061s] -- Generating done
+[2.063s] -- Build files have been written to: /home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter
+[2.076s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_planners/chomp/chomp_optimizer_adapter -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter
+[2.077s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter -- -j20 -l20
+[2.121s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_chomp_optimizer_adapter.dir/src/chomp_optimizer_adapter.cpp.o[0m
+[12.373s] [100%] [32m[1mLinking CXX shared library libmoveit_chomp_optimizer_adapter.so[0m
+[12.579s] [100%] Built target moveit_chomp_optimizer_adapter
+[12.592s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter -- -j20 -l20
+[12.628s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter
+[12.639s] -- Install configuration: "Release"
+[12.639s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so.2.5.5
+[12.640s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so.2.5.5" to ""
+[12.640s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so
+[12.640s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/library_path.sh
+[12.640s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/library_path.dsv
+[12.640s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/chomp_optimizer_adapter_plugin_description.xml
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/package_run_dependencies/moveit_chomp_optimizer_adapter
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/parent_prefix_path/moveit_chomp_optimizer_adapter
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/ament_prefix_path.sh
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/ament_prefix_path.dsv
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/path.sh
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/environment/path.dsv
+[12.641s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.bash
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.sh
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.zsh
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/local_setup.dsv
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/package.dsv
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/packages/moveit_chomp_optimizer_adapter
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_chomp_optimizer_adapter
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterTargetsExport.cmake
+[12.642s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterTargetsExport-release.cmake
+[12.643s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/ament_cmake_export_targets-extras.cmake
+[12.643s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterConfig.cmake
+[12.643s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/cmake/moveit_chomp_optimizer_adapterConfig-version.cmake
+[12.643s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_chomp_optimizer_adapter/share/moveit_chomp_optimizer_adapter/package.xml
+[12.647s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/chomp_motion_planner/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_chomp_optimizer_adapter

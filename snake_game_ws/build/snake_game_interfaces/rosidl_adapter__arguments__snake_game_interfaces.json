@@ -1,0 +1,8 @@
+{
+  "package_name": "snake_game_interfaces",
+  "non_idl_tuples": [
+    "/home/robomaven/ws/snake_game_ws/src/snake_game_interfaces:msg/Turtle.msg",
+    "/home/robomaven/ws/snake_game_ws/src/snake_game_interfaces:msg/TurtleArray.msg",
+    "/home/robomaven/ws/snake_game_ws/src/snake_game_interfaces:srv/CatchTurtle.srv"
+  ]
+}

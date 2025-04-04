@@ -1,0 +1,124 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/robomaven/ws/ws3_moveit2_pick_place']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/robomaven/ws/ws3_moveit2_pick_place'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d399a63f100>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d399a746c20>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d399a746c20>>, mixin_verb=('list',))
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robomaven/ws/ws3_moveit2_pick_place'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/log) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/capabilities' with type 'ros.ament_cmake' and name 'moveit_task_constructor_capabilities'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/core' with type 'ros.ament_cmake' and name 'moveit_task_constructor_core'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/demo' with type 'ros.ament_cmake' and name 'moveit_task_constructor_demo'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/msgs' with type 'ros.ament_cmake' and name 'moveit_task_constructor_msgs'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/rviz_marker_tools' with type 'ros.ament_cmake' and name 'rviz_marker_tools'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/moveit_task_constructor/visualization' with type 'ros.ament_cmake' and name 'moveit_task_constructor_visualization'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robomaven/ws/ws3_moveit2_pick_place/src/mtc_tutorial' with type 'ros.ament_cmake' and name 'mtc_tutorial'
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,118 @@
+[0.017s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.362s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.673s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.729s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.737s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.750s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.003s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.049s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.063s] -- Looking for pthread.h
+[1.149s] -- Looking for pthread.h - found
+[1.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.235s] -- Found Threads: TRUE  
+[1.423s] -- Found controller_manager_msgs: 2.41.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[1.466s] -- Found moveit_core: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[1.491s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.524s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.537s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.539s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.558s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.657s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.876s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.567s] -- Found moveit_simple_controller_manager: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake)
+[2.570s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.863s] -- Found moveit_common: 2.5.5 (/home/robomaven/ws/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[2.911s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[2.913s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.913s] -- BACKWARD_HAS_UNWIND=1
+[2.913s] -- BACKWARD_HAS_BACKTRACE=0
+[2.913s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.913s] -- BACKWARD_HAS_DW=1
+[2.913s] -- BACKWARD_HAS_BFD=0
+[2.914s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.917s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[2.930s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.942s] -- Configured cppcheck include dirs: /home/robomaven/ws/ws_moveit2/moveit2/moveit_plugins/moveit_ros_control_interface/include
+[2.942s] -- Configured cppcheck exclude dirs and/or files: 
+[2.943s] -- Added test 'lint_cmake' to check CMake code style
+[2.943s] -- Added test 'xmllint' to check XML markup files
+[2.944s] -- Configuring done
+[2.988s] -- Generating done
+[2.989s] -- Build files have been written to: /home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface
+[3.002s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robomaven/ws/ws_moveit2/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface
+[3.004s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface -- -j20 -l20
+[3.044s] [ 12%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_plugin.dir/src/controller_manager_plugin.cpp.o[0m
+[3.054s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_empty_plugin.dir/src/empty_controller_plugin.cpp.o[0m
+[3.054s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_gripper_plugin.dir/src/gripper_controller_plugin.cpp.o[0m
+[3.054s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_trajectory_plugin.dir/src/joint_trajectory_controller_plugin.cpp.o[0m
+[7.265s] [ 62%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_trajectory_plugin.so[0m
+[7.313s] [ 75%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_empty_plugin.so[0m
+[7.442s] [ 75%] Built target moveit_ros_control_interface_trajectory_plugin
+[7.484s] [ 87%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_gripper_plugin.so[0m
+[7.536s] [ 87%] Built target moveit_ros_control_interface_empty_plugin
+[7.656s] [ 87%] Built target moveit_ros_control_interface_gripper_plugin
+[13.989s] [100%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_plugin.so[0m
+[14.137s] [100%] Built target moveit_ros_control_interface_plugin
+[14.149s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface -- -j20 -l20
+[14.171s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface
+[14.176s] -- Install configuration: "Release"
+[14.176s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.5
+[14.177s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.5" to ""
+[14.177s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so
+[14.177s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.5
+[14.177s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.5" to ""
+[14.177s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+[14.177s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.5
+[14.178s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.5" to ""
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.5
+[14.178s] -- Set runtime path of "/home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.5" to ""
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/include
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/include/moveit_ros_control_interface
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_core_plugins.xml
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_ros_control_interface_plugins.xml
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.sh
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.dsv
+[14.178s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_control_interface
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_control_interface
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.sh
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.dsv
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.sh
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.dsv
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.bash
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.sh
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.zsh
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.dsv
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.dsv
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/packages/moveit_ros_control_interface
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_control_interface
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_ros_control_interface__pluginlib__plugin/moveit_ros_control_interface
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport-release.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ConfigExtras.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+[14.179s] -- Installing: /home/robomaven/ws/ws_moveit2/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.xml
+[14.181s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager:/home/robomaven/ws/ws_moveit2/install/moveit_core:/home/robomaven/ws/ws_moveit2/install/srdfdom:/home/robomaven/ws/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/robomaven/ws/ws_moveit2/install/moveit_core/lib:/home/robomaven/ws/ws_moveit2/install/srdfdom/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/robomaven/ws/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/robomaven/ws/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robomaven/ws/ws_moveit2/build/moveit_ros_control_interface

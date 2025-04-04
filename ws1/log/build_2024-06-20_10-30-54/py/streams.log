@@ -1,0 +1,17 @@
+[0.391s] Invoking command in '/home/robomaven/ws/ws1/build/py': PYTHONPATH=/home/robomaven/ws/ws1/build/py/prefix_override:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ws1/build/py/build --no-deps symlink_data
+[0.560s] running develop
+[0.651s] running egg_info
+[0.651s] writing py.egg-info/PKG-INFO
+[0.652s] writing dependency_links to py.egg-info/dependency_links.txt
+[0.652s] writing entry points to py.egg-info/entry_points.txt
+[0.652s] writing requirements to py.egg-info/requires.txt
+[0.652s] writing top-level names to py.egg-info/top_level.txt
+[0.653s] reading manifest file 'py.egg-info/SOURCES.txt'
+[0.653s] writing manifest file 'py.egg-info/SOURCES.txt'
+[0.654s] running build_ext
+[0.654s] Creating /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py.egg-link (link to .)
+[0.654s] Installing first_node script to /home/robomaven/ws/ws1/install/py/lib/py
+[0.654s] 
+[0.654s] Installed /home/robomaven/ws/ws1/build/py
+[0.654s] running symlink_data
+[0.671s] Invoked command in '/home/robomaven/ws/ws1/build/py' returned '0': PYTHONPATH=/home/robomaven/ws/ws1/build/py/prefix_override:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/ws/ws1/build/py/build --no-deps symlink_data

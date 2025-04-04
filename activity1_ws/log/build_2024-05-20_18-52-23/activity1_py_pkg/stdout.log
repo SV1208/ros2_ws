@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing activity1_py_pkg.egg-info/PKG-INFO
+writing dependency_links to activity1_py_pkg.egg-info/dependency_links.txt
+writing entry points to activity1_py_pkg.egg-info/entry_points.txt
+writing requirements to activity1_py_pkg.egg-info/requires.txt
+writing top-level names to activity1_py_pkg.egg-info/top_level.txt
+reading manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1-py-pkg.egg-link (link to .)
+Installing number_publisher script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+
+Installed /home/robomaven/activity1_ws/build/activity1_py_pkg
+running symlink_data

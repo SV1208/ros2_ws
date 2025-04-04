@@ -1,0 +1,21 @@
+[0.405s] Invoking command in '/home/robomaven/ws/ws1/src/py': PYTHONPATH=/home/robomaven/ws/ws1/build/py/prefix_override:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py build --build-base /home/robomaven/ws/ws1/build/py/build install --record /home/robomaven/ws/ws1/build/py/install.log --single-version-externally-managed install_data
+[0.555s] running egg_info
+[0.555s] writing ../../build/py/py.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/py/py.egg-info/dependency_links.txt
+[0.556s] writing entry points to ../../build/py/py.egg-info/entry_points.txt
+[0.556s] writing requirements to ../../build/py/py.egg-info/requires.txt
+[0.556s] writing top-level names to ../../build/py/py.egg-info/top_level.txt
+[0.557s] reading manifest file '../../build/py/py.egg-info/SOURCES.txt'
+[0.557s] writing manifest file '../../build/py/py.egg-info/SOURCES.txt'
+[0.557s] running build
+[0.557s] running build_py
+[0.557s] running install
+[0.557s] running install_lib
+[0.558s] running install_data
+[0.558s] running install_egg_info
+[0.559s] removing '/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.559s] Copying ../../build/py/py.egg-info to /home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages/py-0.0.0-py3.10.egg-info
+[0.560s] running install_scripts
+[0.572s] Installing first_node script to /home/robomaven/ws/ws1/install/py/lib/py
+[0.572s] writing list of installed files to '/home/robomaven/ws/ws1/build/py/install.log'
+[0.586s] Invoked command in '/home/robomaven/ws/ws1/src/py' returned '0': PYTHONPATH=/home/robomaven/ws/ws1/build/py/prefix_override:/home/robomaven/ws/ws1/install/py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py build --build-base /home/robomaven/ws/ws1/build/py/build install --record /home/robomaven/ws/ws1/build/py/install.log --single-version-externally-managed install_data

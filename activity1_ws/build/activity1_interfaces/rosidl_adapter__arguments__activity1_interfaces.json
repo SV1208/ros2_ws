@@ -1,0 +1,7 @@
+{
+  "package_name": "activity1_interfaces",
+  "non_idl_tuples": [
+    "/home/robomaven/activity1_ws/src/activity1_interfaces:msg/Panel.msg",
+    "/home/robomaven/activity1_ws/src/activity1_interfaces:srv/SetLED.srv"
+  ]
+}

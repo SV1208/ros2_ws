@@ -1,0 +1,54 @@
+[0.021s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robomaven/ws/ws_moveit2/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/srdfdom
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting CXX compiler ABI info
+[0.193s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.194s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.194s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.341s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.396s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.464s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.467s] -- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.739s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.767s] -- The C compiler identification is GNU 11.4.0
+[0.768s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.820s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.820s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.822s] -- Looking for C++ include pthread.h
+[0.877s] -- Looking for C++ include pthread.h - found
+[0.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.932s] -- Found Threads: TRUE  
+[0.936s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.946s] -- Configuring done
+[0.953s] -- Generating done
+[0.954s] -- Build files have been written to: /home/robomaven/ws/ws_moveit2/build/srdfdom
+[0.959s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robomaven/ws/ws_moveit2/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/robomaven/ws/ws_moveit2/install/srdfdom
+[0.960s] Invoking command in '/home/robomaven/ws/ws_moveit2/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/srdfdom -- -j20 -l20
+[0.988s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[0.988s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.992s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[0.996s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.005s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[1.170s] running egg_info
+[1.170s] creating srdfdom.egg-info
+[1.170s] writing srdfdom.egg-info/PKG-INFO
+[1.170s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[1.170s] writing top-level names to srdfdom.egg-info/top_level.txt
+[1.171s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.172s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.172s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.192s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[1.522s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.544s] [ 45%] Built target gtest_main
+[3.206s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[3.271s] [ 54%] Built target srdfdom
+[6.322s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[6.322s] gmake[1]: *** [CMakeFiles/Makefile2:296: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[6.322s] gmake: *** [Makefile:146: all] Interrupt
+[6.344s] Invoked command in '/home/robomaven/ws/ws_moveit2/build/srdfdom' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robomaven/ws/ws_moveit2/build/srdfdom -- -j20 -l20

@@ -1,0 +1,8 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/robomaven/ws/ros2_ws3/src/my_robot_interfaces:action/CountUntil.action",
+    "/home/robomaven/ws/ros2_ws3/src/my_robot_interfaces:action/MoveRobot.action",
+    "/home/robomaven/ws/ros2_ws3/src/my_robot_interfaces:action/MoveTurtle.action"
+  ]
+}

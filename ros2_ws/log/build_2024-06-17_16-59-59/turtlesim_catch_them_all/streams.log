@@ -1,0 +1,37 @@
+[0.396s] Invoking command in '/home/robomaven/ws/ros2_ws/src/turtlesim_catch_them_all': PYTHONPATH=/home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[0.545s] running egg_info
+[0.545s] creating ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info
+[0.545s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.545s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.545s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.545s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[0.545s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[0.545s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.546s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.547s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.547s] running build
+[0.547s] running build_py
+[0.547s] creating /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build
+[0.547s] creating /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build/lib
+[0.547s] creating /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.547s] copying turtlesim_catch_them_all/turtle_controller.py -> /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.547s] copying turtlesim_catch_them_all/__init__.py -> /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.547s] running install
+[0.547s] running install_lib
+[0.548s] creating /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.548s] copying /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_controller.py -> /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.548s] copying /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/__init__.py -> /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all
+[0.548s] byte-compiling /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.549s] byte-compiling /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all/__init__.py to __init__.cpython-310.pyc
+[0.549s] running install_data
+[0.549s] creating /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/share/ament_index
+[0.549s] creating /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index
+[0.549s] creating /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[0.549s] copying resource/turtlesim_catch_them_all -> /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[0.549s] copying package.xml -> /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[0.549s] running install_egg_info
+[0.550s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim_catch_them_all-0.0.0-py3.10.egg-info
+[0.550s] running install_scripts
+[0.563s] Installing turtlesim_controller script to /home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.563s] writing list of installed files to '/home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[0.577s] Invoked command in '/home/robomaven/ws/ros2_ws/src/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/robomaven/ws/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/build install --record /home/robomaven/ws/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data

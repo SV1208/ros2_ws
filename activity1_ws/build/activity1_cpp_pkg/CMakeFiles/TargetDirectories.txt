@@ -1,0 +1,13 @@
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/uninstall.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/activity1_cpp_pkg_uninstall.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/number_publisher.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/number_counter.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/led_panel.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/battery.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/test.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/install.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/install/local.dir
+/home/robomaven/activity1_ws/build/activity1_cpp_pkg/CMakeFiles/install/strip.dir

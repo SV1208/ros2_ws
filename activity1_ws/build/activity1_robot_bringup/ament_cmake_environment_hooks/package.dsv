@@ -1,0 +1,4 @@
+source;share/activity1_robot_bringup/local_setup.bash
+source;share/activity1_robot_bringup/local_setup.dsv
+source;share/activity1_robot_bringup/local_setup.sh
+source;share/activity1_robot_bringup/local_setup.zsh

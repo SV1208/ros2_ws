@@ -1,0 +1,10 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/robomaven/ws/ws1/src/my_interfaces:msg/ProjectInfo.msg",
+    "/home/robomaven/ws/ws1/src/my_interfaces:msg/KillerData.msg",
+    "/home/robomaven/ws/ws1/src/my_interfaces:msg/Login.msg",
+    "/home/robomaven/ws/ws1/src/my_interfaces:srv/Kill.srv",
+    "/home/robomaven/ws/ws1/src/my_interfaces:action/CountUntil.action"
+  ]
+}

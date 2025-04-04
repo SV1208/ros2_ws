@@ -1,0 +1,19 @@
+[0.352s] Invoking command in '/home/robomaven/activity1_ws/build/activity1_py_pkg': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data --force
+[0.508s] running develop
+[0.596s] running egg_info
+[0.596s] writing activity1_py_pkg.egg-info/PKG-INFO
+[0.596s] writing dependency_links to activity1_py_pkg.egg-info/dependency_links.txt
+[0.596s] writing entry points to activity1_py_pkg.egg-info/entry_points.txt
+[0.596s] writing requirements to activity1_py_pkg.egg-info/requires.txt
+[0.596s] writing top-level names to activity1_py_pkg.egg-info/top_level.txt
+[0.597s] reading manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.598s] writing manifest file 'activity1_py_pkg.egg-info/SOURCES.txt'
+[0.599s] running build_ext
+[0.599s] Creating /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages/activity1-py-pkg.egg-link (link to .)
+[0.599s] Installing number_publisher script to /home/robomaven/activity1_ws/install/activity1_py_pkg/lib/activity1_py_pkg
+[0.599s] 
+[0.599s] Installed /home/robomaven/activity1_ws/build/activity1_py_pkg
+[0.599s] running symlink_data
+[0.600s] symbolically linking /home/robomaven/activity1_ws/build/activity1_py_pkg/resource/activity1_py_pkg -> /home/robomaven/activity1_ws/install/activity1_py_pkg/share/ament_index/resource_index/packages
+[0.600s] symbolically linking /home/robomaven/activity1_ws/build/activity1_py_pkg/package.xml -> /home/robomaven/activity1_ws/install/activity1_py_pkg/share/activity1_py_pkg
+[0.615s] Invoked command in '/home/robomaven/activity1_ws/build/activity1_py_pkg' returned '0': PYTHONPATH=/home/robomaven/activity1_ws/build/activity1_py_pkg/prefix_override:/home/robomaven/activity1_ws/install/activity1_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robomaven/activity1_ws/build/activity1_py_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,54 @@
+[0.009s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/final_project': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/final_project:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/home/robomaven/ws/ros2_ws3/install/final_project/lib:/home/robomaven/ws/ros2_ws3/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/final_project -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.131s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.133s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.136s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.192s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.211s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.313s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.397s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.425s] -- Found my_robot_interfaces: 0.0.0 (/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.461s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.479s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.503s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.591s] -- Configuring done
+[0.602s] -- Generating done
+[0.603s] -- Build files have been written to: /home/robomaven/ws/ros2_ws3/build/final_project
+[0.620s] [35m[1mConsolidate compiler generated dependencies of target final_project_component[0m
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target final_project_step3[0m
+[0.625s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlebot_control_component.dir/src/final_project_turtlebot.cpp.o[0m
+[0.631s] [ 33%] [32mBuilding CXX object CMakeFiles/final_project_component.dir/src/final_project.cpp.o[0m
+[0.632s] [ 66%] Built target final_project_step3
+[4.188s] [ 83%] [32m[1mLinking CXX shared library libturtlebot_control_component.so[0m
+[4.346s] [ 83%] Built target turtlebot_control_component
+[4.960s] [100%] [32m[1mLinking CXX shared library libfinal_project_component.so[0m
+[5.159s] [100%] Built target final_project_component
+[5.170s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/final_project:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/home/robomaven/ws/ros2_ws3/install/final_project/lib:/home/robomaven/ws/ros2_ws3/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/robomaven/ws/ros2_ws3/build/final_project -- -j20 -l20
+[5.212s] Invoking command in '/home/robomaven/ws/ros2_ws3/build/final_project': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/final_project:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/home/robomaven/ws/ros2_ws3/install/final_project/lib:/home/robomaven/ws/ros2_ws3/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/final_project
+[5.220s] -- Install configuration: ""
+[5.220s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/lib/libfinal_project_component.so
+[5.224s] -- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/final_project/lib/libfinal_project_component.so" to ""
+[5.224s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/lib/libturtlebot_control_component.so
+[5.227s] -- Set runtime path of "/home/robomaven/ws/ros2_ws3/install/final_project/lib/libturtlebot_control_component.so" to ""
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/lib/final_project/final_project_step3
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[5.227s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/path.sh
+[5.227s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/environment/path.dsv
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.bash
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.sh
+[5.227s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.zsh
+[5.228s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/local_setup.dsv
+[5.228s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/package.dsv
+[5.228s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/packages/final_project
+[5.228s] -- Installing: /home/robomaven/ws/ros2_ws3/install/final_project/share/ament_index/resource_index/rclcpp_components/final_project
+[5.228s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[5.228s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[5.228s] -- Up-to-date: /home/robomaven/ws/ros2_ws3/install/final_project/share/final_project/package.xml
+[5.229s] Invoked command in '/home/robomaven/ws/ros2_ws3/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces:/home/robomaven/ws/ros2_ws3/install/my_robot_bringup:/home/robomaven/ws/ros2_ws3/install/lifecycle_cpp:/home/robomaven/ws/ros2_ws3/install/final_project:/home/robomaven/ws/ros2_ws3/install/actions_cpp:/home/robomaven/ws/ros2_ws3/install/executors_cpp:/home/robomaven/ws/ros2_ws3/install/components_cpp:/home/robomaven/ws/ros2_ws2_project/install/my_robot_bringup:/home/robomaven/ws/ros2_ws2_project/install/my_robot_description:/home/robomaven/ws/ros2_ws3/install/actions_py:/home/robomaven/ws/ros2_ws3/install/lifecycle_py:/home/robomaven/ws/ros2_ws3/install/executors_py:/home/robomaven/ws/ros2_ws3/install/components_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robomaven/ws/ros2_ws3/install/my_robot_interfaces/lib:/home/robomaven/ws/ros2_ws3/install/final_project/lib:/home/robomaven/ws/ros2_ws3/install/components_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/robomaven/ws/ros2_ws3/build/final_project

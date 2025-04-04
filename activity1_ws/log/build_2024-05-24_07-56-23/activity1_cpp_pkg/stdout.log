@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target led_panel[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery_node.cpp.o[0m
+[ 62%] Built target number_counter
+[ 62%] Built target number_publisher
+[ 87%] Built target led_panel
